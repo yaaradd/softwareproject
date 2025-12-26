@@ -3,7 +3,7 @@ import os
 import sys
 
 # --- Configuration ---
-C_SOURCE = "kmeansnew.c"
+C_SOURCE = "kmeans.c"
 C_EXE = "./kmeans"
 PY_SCRIPT = "kmeans.py"
 TIMEOUT_SEC = 3
