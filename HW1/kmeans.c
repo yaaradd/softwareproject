@@ -318,20 +318,29 @@ int main(int argc, char *argv[]) {
     double **matrix = NULL;
     unsigned int dim, k, max_iters;
 
-    if (argc < 2 || !is_positive_integer(argv[1])) { fprintf(stderr,"An Error Occurred\n"); return 1; }
+    if (argc < 2 || argc > 3) { fprintf(stderr,"An Error Has Occurred\n"); return 1; }
+    if (!is_positive_integer(argv[1])) { fprintf(stderr,"Incorrect number of clusters!\n"); return 1; }
     k = (unsigned int)atoi(argv[1]);
-    max_iters = (argc >= 3 && is_positive_integer(argv[2])) ? (unsigned int)atoi(argv[2]) : MAX_ITER_DEFAULT;
+
+    if (argc == 3) {
+        if (!is_positive_integer(argv[2])) { fprintf(stderr,"Incorrect maximum iteration!\n"); return 1; }
+        max_iters = (unsigned int)atoi(argv[2]);
+    }
+    else max_iters = MAX_ITER_DEFAULT;
 
     points = read_points(&dim);
-    if (!points) { fprintf(stderr,"An Error Occurred\n"); return 1; }
+    if (!points) { fprintf(stderr,"An Error Has Occurred\n"); return 1; }
+
+    if (k <= 1 || k >= points->length) { free_points_list(points); fprintf(stderr,"Incorrect number of clusters!\n"); return 1; }
+    if (max_iters <= 1 || max_iters >= 800) { free_points_list(points); fprintf(stderr,"Incorrect maximum iteration!\n"); return 1; }
 
     matrix = points_to_matrix(points, dim);
-    if (!matrix) { free_points_list(points); fprintf(stderr,"An Error Occurred\n"); return 1; }
+    if (!matrix) { free_points_list(points); fprintf(stderr,"An Error Has Occurred\n"); return 1; }
 
     if (!kmeans(matrix, points->length, dim, k, max_iters)) {
         free_matrix(matrix, points->length);
         free_points_list(points);
-        fprintf(stderr,"An Error Occurred\n");
+        fprintf(stderr,"An Error Has Occurred\n");
         return 1;
     }
 
