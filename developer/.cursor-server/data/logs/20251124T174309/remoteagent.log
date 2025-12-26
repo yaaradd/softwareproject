@@ -1,0 +1,94 @@
+2025-11-24 17:43:09.663 [info] 
+
+
+
+
+2025-11-24 17:43:09.667 [info] [CursorProclistService] Native module loaded successfully
+2025-11-24 17:43:09.667 [info] Extension host agent started.
+2025-11-24 17:43:10.092 [info] [127.0.0.1][6dd46d12][ManagementConnection] New connection established.
+2025-11-24 17:43:10.100 [info] [127.0.0.1][57f22056][ExtensionHostConnection] New connection established.
+2025-11-24 17:43:10.104 [info] Getting extensions control
+2025-11-24 17:43:10.106 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-11-24 17:43:10.198 [info] [127.0.0.1][57f22056][ExtensionHostConnection] <206> Launched Extension Host Process.
+2025-11-24 17:43:43.061 [info] [127.0.0.1][6dd46d12][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 17:44:03.037 [info] [127.0.0.1][f4a3737e][ManagementConnection] New connection established.
+2025-11-24 17:44:03.044 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-11-24 17:44:03.090 [info] [127.0.0.1][7d8a173b][ExtensionHostConnection] New connection established.
+2025-11-24 17:44:03.121 [info] [127.0.0.1][7d8a173b][ExtensionHostConnection] <743> Launched Extension Host Process.
+2025-11-24 17:48:09.670 [info] New EH opened, aborting shutdown
+2025-11-24 17:49:03.061 [info] [CursorProclistService] Sample 0 created: 15 processes, 31 subsamples
+2025-11-24 17:49:03.988 [info] [127.0.0.1][57f22056][ExtensionHostConnection] <206> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 17:54:03.056 [info] [CursorProclistService] Sample 1 created: 10 processes, 31 subsamples
+2025-11-24 17:59:03.060 [info] [CursorProclistService] Sample 2 created: 6 processes, 31 subsamples
+2025-11-24 18:04:03.062 [info] [CursorProclistService] Sample 3 created: 6 processes, 31 subsamples
+2025-11-24 18:09:41.328 [info] [CursorProclistService] Sample 4 created: 10 processes, 35 subsamples
+2025-11-24 18:14:41.292 [info] [CursorProclistService] Sample 5 created: 9 processes, 31 subsamples
+2025-11-24 18:20:41.282 [info] [CursorProclistService] Sample 6 created: 5 processes, 37 subsamples
+2025-11-24 18:25:41.290 [info] [CursorProclistService] Sample 7 created: 5 processes, 31 subsamples
+2025-11-24 18:30:41.268 [info] [CursorProclistService] Sample 8 created: 5 processes, 31 subsamples
+2025-11-24 18:35:41.268 [info] [CursorProclistService] Sample 9 created: 5 processes, 31 subsamples
+2025-11-24 18:40:41.263 [info] [CursorProclistService] Sample 10 created: 5 processes, 31 subsamples
+2025-11-24 18:45:41.279 [info] [CursorProclistService] Sample 11 created: 8 processes, 31 subsamples
+2025-11-24 18:50:41.293 [info] [CursorProclistService] Sample 12 created: 6 processes, 31 subsamples
+2025-11-24 18:55:41.278 [info] [CursorProclistService] Sample 13 created: 5 processes, 31 subsamples
+2025-11-24 19:00:41.328 [info] [CursorProclistService] Sample 14 created: 5 processes, 31 subsamples
+2025-11-24 19:05:41.320 [info] [CursorProclistService] Sample 15 created: 5 processes, 31 subsamples
+2025-11-24 19:10:41.330 [info] [CursorProclistService] Sample 16 created: 5 processes, 31 subsamples
+2025-11-24 19:15:41.289 [info] [CursorProclistService] Sample 17 created: 8 processes, 31 subsamples
+2025-11-24 19:20:41.291 [info] [CursorProclistService] Sample 18 created: 5 processes, 31 subsamples
+2025-11-24 19:25:41.302 [info] [CursorProclistService] Sample 19 created: 5 processes, 31 subsamples
+2025-11-24 19:30:41.331 [info] [CursorProclistService] Sample 20 created: 5 processes, 31 subsamples
+2025-11-24 19:35:41.329 [info] [CursorProclistService] Sample 21 created: 5 processes, 31 subsamples
+2025-11-24 19:40:41.332 [info] [CursorProclistService] Sample 22 created: 5 processes, 31 subsamples
+2025-11-24 19:45:41.377 [info] [CursorProclistService] Sample 23 created: 5 processes, 31 subsamples
+2025-11-24 19:50:41.368 [info] [CursorProclistService] Sample 24 created: 6 processes, 31 subsamples
+2025-11-24 19:55:41.393 [info] [CursorProclistService] Sample 25 created: 5 processes, 31 subsamples
+2025-11-24 20:00:41.370 [info] [CursorProclistService] Sample 26 created: 5 processes, 31 subsamples
+2025-11-24 20:05:41.380 [info] [CursorProclistService] Sample 27 created: 5 processes, 31 subsamples
+2025-11-24 20:10:41.377 [info] [CursorProclistService] Sample 28 created: 5 processes, 31 subsamples
+2025-11-24 20:15:41.295 [info] [CursorProclistService] Sample 29 created: 5 processes, 31 subsamples
+2025-11-24 20:20:28.620 [info] [CursorProclistService] Sample 30 created: 5 processes, 30 subsamples
+2025-11-24 20:24:03.042 [info] [CursorProclistService] Sample 31 created: 14 processes, 22 subsamples
+2025-11-24 20:29:04.282 [info] [CursorProclistService] Sample 32 created: 14 processes, 31 subsamples
+2025-11-24 20:34:03.035 [info] [CursorProclistService] Sample 33 created: 11 processes, 31 subsamples
+2025-11-24 20:39:03.034 [info] [CursorProclistService] Sample 34 created: 8 processes, 31 subsamples
+2025-11-24 20:44:03.034 [info] [CursorProclistService] Sample 35 created: 8 processes, 31 subsamples
+2025-11-24 20:49:03.048 [info] [CursorProclistService] Sample 36 created: 5 processes, 31 subsamples
+2025-11-24 20:54:03.043 [info] [CursorProclistService] Sample 37 created: 5 processes, 31 subsamples
+2025-11-24 20:59:42.687 [info] [CursorProclistService] Sample 38 created: 8 processes, 35 subsamples
+2025-11-24 21:04:03.083 [info] [CursorProclistService] Sample 39 created: 5 processes, 27 subsamples
+2025-11-24 21:09:04.329 [info] [CursorProclistService] Sample 40 created: 13 processes, 31 subsamples
+2025-11-24 21:14:03.087 [info] [CursorProclistService] Sample 41 created: 5 processes, 31 subsamples
+2025-11-24 21:19:03.116 [info] [CursorProclistService] Sample 42 created: 5 processes, 31 subsamples
+2025-11-24 21:24:02.396 [info] [127.0.0.1][7d8a173b][ExtensionHostConnection] The client has reconnected.
+2025-11-24 21:24:02.415 [info] [127.0.0.1][f4a3737e][ManagementConnection] The client has reconnected.
+2025-11-24 21:24:04.368 [info] [CursorProclistService] Sample 43 created: 8 processes, 31 subsamples
+2025-11-24 22:16:36.967 [info] [127.0.0.1][f4a3737e][ManagementConnection] The client has reconnected.
+2025-11-24 22:16:36.994 [info] [127.0.0.1][7d8a173b][ExtensionHostConnection] The client has reconnected.
+2025-11-24 22:18:55.305 [info] [CursorProclistService] Sample 44 created: 9 processes, 41 subsamples
+2025-11-24 23:22:07.647 [info] [CursorProclistService] Sample 45 created: 6 processes, 31 subsamples
+2025-11-24 23:45:07.677 [info] [CursorProclistService] Sample 46 created: 5 processes, 31 subsamples
+2025-11-25 00:54:56.474 [info] [CursorProclistService] Sample 47 created: 5 processes, 31 subsamples
+2025-11-25 01:06:50.137 [info] [CursorProclistService] Sample 48 created: 6 processes, 31 subsamples
+2025-11-25 01:11:50.132 [info] [CursorProclistService] Sample 49 created: 5 processes, 31 subsamples
+2025-11-25 01:16:50.143 [info] [CursorProclistService] Sample 50 created: 5 processes, 31 subsamples
+2025-11-25 01:21:50.139 [info] [CursorProclistService] Sample 51 created: 5 processes, 31 subsamples
+2025-11-25 01:42:27.976 [info] [CursorProclistService] Sample 52 created: 5 processes, 31 subsamples
+2025-11-25 02:18:41.581 [info] [CursorProclistService] Sample 53 created: 5 processes, 30 subsamples
+2025-11-25 02:55:11.508 [info] [CursorProclistService] Sample 54 created: 19 processes, 31 subsamples
+2025-11-25 04:00:34.171 [info] [CursorProclistService] Sample 55 created: 20 processes, 31 subsamples
+2025-11-25 05:09:53.637 [info] [CursorProclistService] Sample 56 created: 21 processes, 31 subsamples
+2025-11-25 05:22:20.951 [info] [CursorProclistService] Sample 57 created: 20 processes, 31 subsamples
+2025-11-25 06:36:21.268 [info] [CursorProclistService] Sample 58 created: 20 processes, 31 subsamples
+2025-11-25 09:31:09.203 [info] [CursorProclistService] Sample 59 created: 14 processes, 31 subsamples
+2025-11-25 09:33:23.549 [info] [127.0.0.1][7d8a173b][ExtensionHostConnection] The client has reconnected.
+2025-11-25 09:33:23.562 [info] [127.0.0.1][f4a3737e][ManagementConnection] The client has reconnected.
+2025-11-25 11:13:22.219 [info] [CursorProclistService] Sample 60 created: 10 processes, 31 subsamples
+2025-11-25 11:27:26.305 [info] [CursorProclistService] Sample 61 created: 5 processes, 31 subsamples
+2025-11-25 11:32:26.296 [info] [CursorProclistService] Sample 62 created: 5 processes, 31 subsamples
+2025-11-25 11:37:26.300 [info] [CursorProclistService] Sample 63 created: 5 processes, 31 subsamples
+2025-11-25 11:42:26.320 [info] [CursorProclistService] Sample 64 created: 5 processes, 31 subsamples
+2025-11-25 11:42:51.538 [info] [127.0.0.1][f4a3737e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-25 11:42:51.637 [info] [127.0.0.1][7d8a173b][ExtensionHostConnection] <743> Extension Host Process exited with code: 0, signal: null.
+2025-11-25 11:42:51.637 [info] Last EH closed, waiting before shutting down
+2025-11-25 11:47:51.640 [info] Last EH closed, shutting down

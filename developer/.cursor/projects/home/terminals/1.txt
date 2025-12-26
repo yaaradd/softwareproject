@@ -1,0 +1,941 @@
+---
+pid: 88169
+cwd: /home/HW1
+active_command: cd /home   git add -A   git status
+last_command: python3 kmeans_tester_improved.py
+last_exit_code: 0
+---
+kmeans.c
+/usr/bin/ld: /tmp/ccbwDOGZ.o: in function `euclidean_distance':
+kmeans.c:(.text+0x84): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans
+/usr/bin/ld: /tmp/cc71qSH4.o: in function `euclidean_distance':
+kmeans.c:(.text+0x84): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans
+/usr/bin/ld: /tmp/ccD7grdq.o: in function `euclidean_distance':
+kmeans.c:(.text+0x84): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans
+/usr/bin/ld: /tmp/ccVwZFxw.o: in function `euclidean_distance':
+kmeans.c:(.text+0x84): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans-lm
+/usr/bin/ld: /tmp/ccb7WdI6.o: in function `euclidean_distance':
+kmeans.c:(.text+0x84): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester.py
+🔨 Compiling kmeans.c...
+✅ Compilation Successful.
+
+
+🚀 Starting The ULTIMATE K-means Tester 🚀
+
+🧪 Test: No Arguments
+   ✅ PASS
+🧪 Test: K is not a number (string)
+   ✅ PASS
+🧪 Test: K is float (2.5)
+   ✅ PASS
+🧪 Test: Negative K
+   ✅ PASS
+🧪 Test: K=0
+   ✅ PASS
+🧪 Test: K=1 (Boundary)
+   ✅ PASS
+🧪 Test: Max Iter is not a number
+   ✅ PASS
+🧪 Test: Max Iter = 0
+   ✅ PASS
+🧪 Test: Max Iter Negative
+   ✅ PASS
+🧪 Test: Too Many Arguments
+   ✅ PASS
+🧪 Test: K = N (Should Fail)
+   ✅ PASS
+🧪 Test: K > N (Should Fail)
+   ✅ PASS
+🧪 Test: Empty Input File
+   [C] ❌ FAIL: Missing expected message.
+      Expected: 'An Error Has Occurred'
+      Got Out:  'Incorrect number of clusters!'
+      Got Err:  ''
+   [PY] ❌ FAIL: Missing expected message.
+      Expected: 'An Error Has Occurred'
+      Got Out:  'Incorrect number of clusters!'
+      Got Err:  ''
+🧪 Test: Windows Line Endings (CRLF)
+   ✅ PASS
+🧪 Test: No Newline at End of File
+   ✅ PASS
+🧪 Test: Empty Lines in Middle (Should Skip)
+   ✅ PASS
+🧪 Test: Spaces and Tabs around numbers
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Default Iter)
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Iter=50)
+   ✅ PASS
+🧪 Test: High Dimensionality (d=5)
+   ✅ PASS
+🧪 Test: Strict Integer Check: K=2.5
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Garbage after K: K=2x
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Strict Integer Check: Iter=100.5
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Garbage after Iter: Iter=100a
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Inconsistent Dimensions (Jagged Array)
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Double Comma (Missing Value)
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Trailing Comma
+   [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+🧪 Test: Official Test 1 (K=3, iter=600)
+   ✅ PASS
+🧪 Test: Official Test 2 (K=7, default iter)
+   ✅ PASS
+🧪 Test: Official Test 3 (K=15, iter=300)
+   ✅ PASS
+
+========================================
+SUMMARY: 22/31 Tests Passed
+⚠️  Some tests failed. Check logs above.
+========================================
+developer@221dd1ef5717:/home/HW1$ developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester.py
+bash: developer@221dd1ef5717:/home/HW1$: No such file or directory
+developer@221dd1ef5717:/home/HW1$  Compilation Successful.
+bash: Compilation: command not found
+developer@221dd1ef5717:/home/HW1$ 
+developer@221dd1ef5717:/home/HW1$ 
+developer@221dd1ef5717:/home/HW1
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Missing expected message.
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$       Expected: 'An Error Has Occurred'
+bash: Expected:: command not found
+developer@221dd1ef5717:/home/HW1$       Got Out:  'Incorrect number of clusters!'
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$       Got Err:  ''
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$    [PY] ❌ FAIL: Missing expected message.
+bash: [PY]: command not found
+developer@221dd1ef5717:/home/HW1$       Expected: 'An Error Has Occurred'
+bash: Expected:: command not found
+developer@221dd1ef5717:/home/HW1$       Got Out:  'Incorrect number of clusters!'
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$       Got Err:  ''
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$ 
+developer@221dd1ef5717:/home/HW1$ ========================================
+bash: ========================================: command not found
+developer@221dd1ef5717:/home/HW1$ SUMMARY: 22/31 Tests Passed
+bash: SUMMARY:: command not found
+developer@221dd1ef5717:/home/HW1$   Some tests failed. Check logs above.
+bash: Some: command not found
+developer@221dd1ef5717:/home/HW1$ ========================================developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester.py
+bash: ========================================developer@221dd1ef5717:/home/HW1$: No such file or directory
+developer@221dd1ef5717:/home/HW1$  Compilation Successful.
+bash: Compilation: command not found
+developer@221dd1ef5717:/home/HW1$ 
+developer@221dd1ef5717:/home/HW1$ 
+developer@221dd1ef5717:/home/HW1
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Missing expected message.
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$       Expected: 'An Error Has Occurred'
+bash: Expected:: command not found
+developer@221dd1ef5717:/home/HW1$       Got Out:  'Incorrect number of clusters!'
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$       Got Err:  ''
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$    [PY] ❌ FAIL: Missing expected message.
+bash: [PY]: command not found
+developer@221dd1ef5717:/home/HW1$       Expected: 'An Error Has Occurred'
+bash: Expected:: command not found
+developer@221dd1ef5717:/home/HW1$       Got Out:  'Incorrect number of clusters!'
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$       Got Err:  ''
+bash: Got: command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    [C] ❌ FAIL: Wrong Return Code. Expected 1, Got 0
+bash: [C]: command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$    ✅ PASS
+bash: $'\342\234\205': command not found
+developer@221dd1ef5717:/home/HW1$ 
+developer@221dd1ef5717:/home/HW1$ ========================================
+bash: ========================================: command not found
+developer@221dd1ef5717:/home/HW1$ SUMMARY: 22/31 Tests Passed
+bash: SUMMARY:: command not found
+developer@221dd1ef5717:/home/HW1$   Some tests failed. Check logs above.
+bash: Some: command not found
+developer@221dd1ef5717:/home/HW1$ ========================================^C
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+ðŸ”¨ Compiling kmeans.c...
+âœ… Compilation Successful.
+
+
+ðŸš€ Starting The ULTIMATE K-means Tester ðŸš€
+
+ðŸ§ª Test: No Arguments
+   âœ… PASS
+ðŸ§ª Test: K is not a number (string)
+   âœ… PASS
+ðŸ§ª Test: K is float (2.5)
+   âœ… PASS
+ðŸ§ª Test: Negative K
+   âœ… PASS
+ðŸ§ª Test: K=0
+   âœ… PASS
+ðŸ§ª Test: K=1 (Boundary)
+   âœ… PASS
+ðŸ§ª Test: Max Iter is not a number
+   âœ… PASS
+ðŸ§ª Test: Max Iter = 0
+   âœ… PASS
+ðŸ§ª Test: Max Iter Negative
+   âœ… PASS
+ðŸ§ª Test: Too Many Arguments
+   âœ… PASS
+ðŸ§ª Test: K = N (Should Fail)
+   âœ… PASS
+ðŸ§ª Test: K > N (Should Fail)
+   âœ… PASS
+ðŸ§ª Test: Empty Input File
+   [C] â
+      Expected: 'An Error Has Occurred'
+      Got Out:  'Incorrect number of clusters!'
+      Got Err:  ''
+   [PY] â
+      Expected: 'An Error Has Occurred'
+      Got Out:  'Incorrect number of clusters!'
+      Got Err:  ''
+ðŸ§ª Test: Windows Line Endings (CRLF)
+   âœ… PASS
+ðŸ§ª Test: No Newline at End of File
+   âœ… PASS
+ðŸ§ª Test: Empty Lines in Middle (Should Skip)
+   âœ… PASS
+ðŸ§ª Test: Spaces and Tabs around numbers
+   âœ… PASS
+ðŸ§ª Test: Standard Run (K=2, Default Iter)
+   âœ… PASS
+ðŸ§ª Test: Standard Run (K=2, Iter=50)
+   âœ… PASS
+ðŸ§ª Test: High Dimensionality (d=5)
+   âœ… PASS
+ðŸ§ª Test: Strict Integer Check: K=2.5
+   [C] â
+ðŸ§ª Test: Garbage after K: K=2x
+   [C] â
+ðŸ§ª Test: Strict Integer Check: Iter=100.5
+   [C] â
+ðŸ§ª Test: Garbage after Iter: Iter=100a
+   [C] â
+ðŸ§ª Test: Inconsistent Dimensions (Jagged Array)
+   [C] â
+ðŸ§ª Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   [C] â
+ðŸ§ª Test: Double Comma (Missing Value)
+   [C] â
+ðŸ§ª Test: Trailing Comma
+   [C] â
+ðŸ§ª Test: Official Test 1 (K=3, iter=600)
+   âœ… PASS
+ðŸ§ª Test: Official Test 2 (K=7, default iter)
+   âœ… PASS
+ðŸ§ª Test: Official Test 3 (K=15, iter=300)
+   âœ… PASS
+
+========================================
+SUMMARY: 22/31 Tests Passed
+âš ï¸  Some tests failed. Check logs above.
+========================================
+developer@221dd1ef5717:/home/HW1$ export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+ðŸ”¨ Compiling kmeans.c...
+âœ… Compilation Successful.
+
+
+ðŸš€ Starting The ULTIMATE K-means Tester ðŸš€
+
+ðŸ§ª Test: No Arguments
+   âœ… PASS
+ðŸ§ª Test: K is not a number (string)
+   âœ… PASS
+ðŸ§ª Test: K is float (2.5)
+   âœ… PASS
+ðŸ§ª Test: Negative K
+   âœ… PASS
+ðŸ§ª Test: K=0
+   âœ… PASS
+ðŸ§ª Test: K=1 (Boundary)
+   âœ… PASS
+ðŸ§ª Test: Max Iter is not a number
+   âœ… PASS
+ðŸ§ª Test: Max Iter = 0
+   âœ… PASS
+ðŸ§ª Test: Max Iter Negative
+   âœ… PASS
+ðŸ§ª Test: Too Many Arguments
+   âœ… PASS
+ðŸ§ª Test: K = N (Should Fail)
+   âœ… PASS
+ðŸ§ª Test: K > N (Should Fail)
+   âœ… PASS
+ðŸ§ª Test: Empty Input File
+   [C] â
+      Expected: 'An Error Has Occurred'
+      Got Out:  'Incorrect number of clusters!'
+      Got Err:  ''
+   [PY] â
+      Expected: 'An Error Has Occurred'
+      Got Out:  'Incorrect number of clusters!'
+      Got Err:  ''
+ðŸ§ª Test: Windows Line Endings (CRLF)
+   âœ… PASS
+ðŸ§ª Test: No Newline at End of File
+   âœ… PASS
+ðŸ§ª Test: Empty Lines in Middle (Should Skip)
+   âœ… PASS
+ðŸ§ª Test: Spaces and Tabs around numbers
+   âœ… PASS
+ðŸ§ª Test: Standard Run (K=2, Default Iter)
+   âœ… PASS
+ðŸ§ª Test: Standard Run (K=2, Iter=50)
+   âœ… PASS
+ðŸ§ª Test: High Dimensionality (d=5)
+   âœ… PASS
+ðŸ§ª Test: Strict Integer Check: K=2.5
+   [C] â
+ðŸ§ª Test: Garbage after K: K=2x
+   [C] â
+ðŸ§ª Test: Strict Integer Check: Iter=100.5
+   [C] â
+ðŸ§ª Test: Garbage after Iter: Iter=100a
+   [C] â
+ðŸ§ª Test: Inconsistent Dimensions (Jagged Array)
+   [C] â
+ðŸ§ª Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   [C] â
+ðŸ§ª Test: Double Comma (Missing Value)
+   [C] â
+ðŸ§ª Test: Trailing Comma
+   [C] â
+ðŸ§ª Test: Official Test 1 (K=3, iter=600)
+   âœ… PASS
+ðŸ§ª Test: Official Test 2 (K=7, default iter)
+   âœ… PASS
+ðŸ§ª Test: Official Test 3 (K=15, iter=300)
+   âœ… PASS
+
+========================================
+SUMMARY: 22/31 Tests Passed
+âš ï¸  Some tests failed. Check logs above.
+========================================
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+ðŸ”¨ Compiling kmeans.c...
+â
+kmeans.c: In function 'read_input':
+kmeans.c:132:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  132 |         size_t len = strlen(line);
+      |         ^~~~~~
+kmeans.c:141:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  141 |         int last_was_comma = 1;
+      |         ^~~
+kmeans.c:209:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  209 |             char temp[MAX_LINE_LENGTH];
+      |             ^~~~
+kmeans.c:222:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  222 |             char *endptr;
+      |             ^~~~
+
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+kmeans.c: In function 'read_input':
+kmeans.c:132:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  132 |         size_t len = strlen(line);
+      |         ^~~~~~
+kmeans.c:141:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  141 |         int last_was_comma = 1;
+      |         ^~~
+kmeans.c:209:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  209 |             char temp[MAX_LINE_LENGTH];
+      |             ^~~~
+kmeans.c:222:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  222 |             char *endptr;
+      |             ^~~~
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+kmeans.c: In function 'read_input':
+kmeans.c:132:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  132 |         size_t len = strlen(line);
+      |         ^~~~~~
+kmeans.c:141:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  141 |         int last_was_comma = 1;
+      |         ^~~
+kmeans.c:209:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  209 |             char temp[MAX_LINE_LENGTH];
+      |             ^~~~
+kmeans.c:222:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  222 |             char *endptr;
+      |             ^~~~
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+kmeans.c: In function 'read_input':
+kmeans.c:132:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  132 |         size_t len = strlen(line);
+      |         ^~~~~~
+kmeans.c:141:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  141 |         int last_was_comma = 1;
+      |         ^~~
+kmeans.c:209:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  209 |             char temp[MAX_LINE_LENGTH];
+      |             ^~~~
+kmeans.c:222:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  222 |             char *endptr;
+      |             ^~~~
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+kmeans.c: In function 'read_input':
+kmeans.c:132:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  132 |         size_t len = strlen(line);
+      |         ^~~~~~
+kmeans.c:141:9: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  141 |         int last_was_comma = 1;
+      |         ^~~
+kmeans.c:209:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  209 |             char temp[MAX_LINE_LENGTH];
+      |             ^~~~
+kmeans.c:222:13: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  222 |             char *endptr;
+      |             ^~~~
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ unset LC_ALL
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+developer@221dd1ef5717:/home/HW1$ gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans -lm
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+ðŸ”¨ Compiling kmeans.c...
+âœ… Compilation Successful.
+
+
+ðŸš€ Starting The ULTIMATE K-means Tester ðŸš€
+
+ðŸ§ª Test: No Arguments
+   âœ… PASS
+ðŸ§ª Test: K is not a number (string)
+   âœ… PASS
+ðŸ§ª Test: K is float (2.5)
+   âœ… PASS
+ðŸ§ª Test: Negative K
+   âœ… PASS
+ðŸ§ª Test: K=0
+   âœ… PASS
+ðŸ§ª Test: K=1 (Boundary)
+   âœ… PASS
+ðŸ§ª Test: Max Iter is not a number
+   âœ… PASS
+ðŸ§ª Test: Max Iter = 0
+   âœ… PASS
+ðŸ§ª Test: Max Iter Negative
+   âœ… PASS
+ðŸ§ª Test: Too Many Arguments
+   âœ… PASS
+ðŸ§ª Test: K = N (Should Fail)
+   âœ… PASS
+ðŸ§ª Test: K > N (Should Fail)
+   âœ… PASS
+ðŸ§ª Test: Empty Input File
+   âœ… PASS
+ðŸ§ª Test: Windows Line Endings (CRLF)
+   âœ… PASS
+ðŸ§ª Test: No Newline at End of File
+   âœ… PASS
+ðŸ§ª Test: Empty Lines in Middle (Should Skip)
+   âœ… PASS
+ðŸ§ª Test: Spaces and Tabs around numbers
+   âœ… PASS
+ðŸ§ª Test: Standard Run (K=2, Default Iter)
+   âœ… PASS
+ðŸ§ª Test: Standard Run (K=2, Iter=50)
+   âœ… PASS
+ðŸ§ª Test: High Dimensionality (d=5)
+   âœ… PASS
+ðŸ§ª Test: Strict Integer Check: K=2.5
+   âœ… PASS
+ðŸ§ª Test: Garbage after K: K=2x
+   âœ… PASS
+ðŸ§ª Test: Strict Integer Check: Iter=100.5
+   âœ… PASS
+ðŸ§ª Test: Garbage after Iter: Iter=100a
+   âœ… PASS
+ðŸ§ª Test: Inconsistent Dimensions (Jagged Array)
+   âœ… PASS
+ðŸ§ª Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   âœ… PASS
+ðŸ§ª Test: Double Comma (Missing Value)
+   âœ… PASS
+ðŸ§ª Test: Trailing Comma
+   âœ… PASS
+ðŸ§ª Test: Official Test 1 (K=3, iter=600)
+   âœ… PASS
+ðŸ§ª Test: Official Test 2 (K=7, default iter)
+   âœ… PASS
+ðŸ§ª Test: Official Test 3 (K=15, iter=300)
+   âœ… PASS
+
+========================================
+SUMMARY: 31/31 Tests Passed
+ðŸ† PERFECTION! You are ready to submit.
+========================================
+developer@221dd1ef5717:/home/HW1$ python3 fix_tester.py
+✅ Fixed! Run: python3 kmeans_tester_improved.py
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+ðŸ”¨ Compiling kmeans.c...
+✅ Compilation Successful.
+
+
+🚀 Starting The ULTIMATE K-means Tester 🚀
+
+🧪 Test: No Arguments
+   ✅ PASS
+🧪 Test: K is not a number (string)
+   ✅ PASS
+🧪 Test: K is float (2.5)
+   ✅ PASS
+🧪 Test: Negative K
+   ✅ PASS
+🧪 Test: K=0
+   ✅ PASS
+🧪 Test: K=1 (Boundary)
+   ✅ PASS
+🧪 Test: Max Iter is not a number
+   ✅ PASS
+🧪 Test: Max Iter = 0
+   ✅ PASS
+🧪 Test: Max Iter Negative
+   ✅ PASS
+🧪 Test: Too Many Arguments
+   ✅ PASS
+🧪 Test: K = N (Should Fail)
+   ✅ PASS
+🧪 Test: K > N (Should Fail)
+   ✅ PASS
+🧪 Test: Empty Input File
+   ✅ PASS
+🧪 Test: Windows Line Endings (CRLF)
+   ✅ PASS
+🧪 Test: No Newline at End of File
+   ✅ PASS
+🧪 Test: Empty Lines in Middle (Should Skip)
+   ✅ PASS
+🧪 Test: Spaces and Tabs around numbers
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Default Iter)
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Iter=50)
+   ✅ PASS
+🧪 Test: High Dimensionality (d=5)
+   ✅ PASS
+🧪 Test: Strict Integer Check: K=2.5
+   ✅ PASS
+🧪 Test: Garbage after K: K=2x
+   ✅ PASS
+🧪 Test: Strict Integer Check: Iter=100.5
+   ✅ PASS
+🧪 Test: Garbage after Iter: Iter=100a
+   ✅ PASS
+🧪 Test: Inconsistent Dimensions (Jagged Array)
+   ✅ PASS
+🧪 Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   ✅ PASS
+🧪 Test: Double Comma (Missing Value)
+   ✅ PASS
+🧪 Test: Trailing Comma
+   ✅ PASS
+🧪 Test: Official Test 1 (K=3, iter=600)
+   ✅ PASS
+🧪 Test: Official Test 2 (K=7, default iter)
+   ✅ PASS
+🧪 Test: Official Test 3 (K=15, iter=300)
+   ✅ PASS
+
+========================================
+SUMMARY: 31/31 Tests Passed
+ðŸ† PERFECTION! You are ready to submit.
+========================================
+developer@221dd1ef5717:/home/HW1$ python3 fix_tester.py
+✅ Fixed! Run: python3 kmeans_tester_improved.py
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+ðŸ”¨ Compiling kmeans.c...
+✅ Compilation Successful.
+
+
+🚀 Starting The ULTIMATE K-means Tester 🚀
+
+🧪 Test: No Arguments
+   ✅ PASS
+🧪 Test: K is not a number (string)
+   ✅ PASS
+🧪 Test: K is float (2.5)
+   ✅ PASS
+🧪 Test: Negative K
+   ✅ PASS
+🧪 Test: K=0
+   ✅ PASS
+🧪 Test: K=1 (Boundary)
+   ✅ PASS
+🧪 Test: Max Iter is not a number
+   ✅ PASS
+🧪 Test: Max Iter = 0
+   ✅ PASS
+🧪 Test: Max Iter Negative
+   ✅ PASS
+🧪 Test: Too Many Arguments
+   ✅ PASS
+🧪 Test: K = N (Should Fail)
+   ✅ PASS
+🧪 Test: K > N (Should Fail)
+   ✅ PASS
+🧪 Test: Empty Input File
+   ✅ PASS
+🧪 Test: Windows Line Endings (CRLF)
+   ✅ PASS
+🧪 Test: No Newline at End of File
+   ✅ PASS
+🧪 Test: Empty Lines in Middle (Should Skip)
+   ✅ PASS
+🧪 Test: Spaces and Tabs around numbers
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Default Iter)
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Iter=50)
+   ✅ PASS
+🧪 Test: High Dimensionality (d=5)
+   ✅ PASS
+🧪 Test: Strict Integer Check: K=2.5
+   ✅ PASS
+🧪 Test: Garbage after K: K=2x
+   ✅ PASS
+🧪 Test: Strict Integer Check: Iter=100.5
+   ✅ PASS
+🧪 Test: Garbage after Iter: Iter=100a
+   ✅ PASS
+🧪 Test: Inconsistent Dimensions (Jagged Array)
+   ✅ PASS
+🧪 Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   ✅ PASS
+🧪 Test: Double Comma (Missing Value)
+   ✅ PASS
+🧪 Test: Trailing Comma
+   ✅ PASS
+🧪 Test: Official Test 1 (K=3, iter=600)
+   ✅ PASS
+🧪 Test: Official Test 2 (K=7, default iter)
+   ✅ PASS
+🧪 Test: Official Test 3 (K=15, iter=300)
+   ✅ PASS
+
+========================================
+SUMMARY: 31/31 Tests Passed
+ðŸ† PERFECTION! You are ready to submit.
+========================================
+developer@221dd1ef5717:/home/HW1$ python3 fix_tester.py
+✅ Fixed! Run: python3 kmeans_tester_improved.py
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+ðŸ”¨ Compiling kmeans.c...
+✅ Compilation Successful.
+
+
+🚀 Starting The ULTIMATE K-means Tester 🚀
+
+🧪 Test: No Arguments
+   ✅ PASS
+🧪 Test: K is not a number (string)
+   ✅ PASS
+🧪 Test: K is float (2.5)
+   ✅ PASS
+🧪 Test: Negative K
+   ✅ PASS
+🧪 Test: K=0
+   ✅ PASS
+🧪 Test: K=1 (Boundary)
+   ✅ PASS
+🧪 Test: Max Iter is not a number
+   ✅ PASS
+🧪 Test: Max Iter = 0
+   ✅ PASS
+🧪 Test: Max Iter Negative
+   ✅ PASS
+🧪 Test: Too Many Arguments
+   ✅ PASS
+🧪 Test: K = N (Should Fail)
+   ✅ PASS
+🧪 Test: K > N (Should Fail)
+   ✅ PASS
+🧪 Test: Empty Input File
+   ✅ PASS
+🧪 Test: Windows Line Endings (CRLF)
+   ✅ PASS
+🧪 Test: No Newline at End of File
+   ✅ PASS
+🧪 Test: Empty Lines in Middle (Should Skip)
+   ✅ PASS
+🧪 Test: Spaces and Tabs around numbers
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Default Iter)
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Iter=50)
+   ✅ PASS
+🧪 Test: High Dimensionality (d=5)
+   ✅ PASS
+🧪 Test: Strict Integer Check: K=2.5
+   ✅ PASS
+🧪 Test: Garbage after K: K=2x
+   ✅ PASS
+🧪 Test: Strict Integer Check: Iter=100.5
+   ✅ PASS
+🧪 Test: Garbage after Iter: Iter=100a
+   ✅ PASS
+🧪 Test: Inconsistent Dimensions (Jagged Array)
+   ✅ PASS
+🧪 Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   ✅ PASS
+🧪 Test: Double Comma (Missing Value)
+   ✅ PASS
+🧪 Test: Trailing Comma
+   ✅ PASS
+🧪 Test: Official Test 1 (K=3, iter=600)
+   ✅ PASS
+🧪 Test: Official Test 2 (K=7, default iter)
+   ✅ PASS
+🧪 Test: Official Test 3 (K=15, iter=300)
+   ✅ PASS
+
+========================================
+SUMMARY: 31/31 Tests Passed
+ðŸ† PERFECTION! You are ready to submit.
+========================================
+developer@221dd1ef5717:/home/HW1$ tar -czvf 208258145_214882649_assignment1
+.tar.gz 208258145_214882649_assignment1
+tar: 208258145_214882649_assignment1: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+developer@221dd1ef5717:/home/HW1$ mkdir 208258145_214882649_assignment1
+cp kmeans.c 208258145_214882649_assignment1/
+cp kmeans.py 208258145_214882649_assignment1/
+developer@221dd1ef5717:/home/HW1$ tar -czvf 208258145_214882649_assignment1.tar.gz 208258145_214882649_assignment1
+208258145_214882649_assignment1/
+208258145_214882649_assignment1/kmeans.py
+208258145_214882649_assignment1/kmeans.c
+developer@221dd1ef5717:/home/HW1$ python3 kmeans_tester_improved.py
+ðŸ”¨ Compiling kmeans.c...
+✅ Compilation Successful.
+
+
+🚀 Starting The ULTIMATE K-means Tester 🚀
+
+🧪 Test: No Arguments
+   ✅ PASS
+🧪 Test: K is not a number (string)
+   ✅ PASS
+🧪 Test: K is float (2.5)
+   ✅ PASS
+🧪 Test: Negative K
+   ✅ PASS
+🧪 Test: K=0
+   ✅ PASS
+🧪 Test: K=1 (Boundary)
+   ✅ PASS
+🧪 Test: Max Iter is not a number
+   ✅ PASS
+🧪 Test: Max Iter = 0
+   ✅ PASS
+🧪 Test: Max Iter Negative
+   ✅ PASS
+🧪 Test: Too Many Arguments
+   ✅ PASS
+🧪 Test: K = N (Should Fail)
+   ✅ PASS
+🧪 Test: K > N (Should Fail)
+   ✅ PASS
+🧪 Test: Empty Input File
+   ✅ PASS
+🧪 Test: Windows Line Endings (CRLF)
+   ✅ PASS
+🧪 Test: No Newline at End of File
+   ✅ PASS
+🧪 Test: Empty Lines in Middle (Should Skip)
+   ✅ PASS
+🧪 Test: Spaces and Tabs around numbers
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Default Iter)
+   ✅ PASS
+🧪 Test: Standard Run (K=2, Iter=50)
+   ✅ PASS
+🧪 Test: High Dimensionality (d=5)
+   ✅ PASS
+🧪 Test: Strict Integer Check: K=2.5
+   ✅ PASS
+🧪 Test: Garbage after K: K=2x
+   ✅ PASS
+🧪 Test: Strict Integer Check: Iter=100.5
+   ✅ PASS
+🧪 Test: Garbage after Iter: Iter=100a
+   ✅ PASS
+🧪 Test: Inconsistent Dimensions (Jagged Array)
+   ✅ PASS
+🧪 Test: Non-numeric data in vector (1.0, 2a, 3.0)
+   ✅ PASS
+🧪 Test: Double Comma (Missing Value)
+   ✅ PASS
+🧪 Test: Trailing Comma
+   ✅ PASS
+🧪 Test: Official Test 1 (K=3, iter=600)
+   ✅ PASS
+🧪 Test: Official Test 2 (K=7, default iter)
+   ✅ PASS
+🧪 Test: Official Test 3 (K=15, iter=300)
+   ✅ PASS
+
+========================================
+SUMMARY: 31/31 Tests Passed
+ðŸ† PERFECTION! You are ready to submit.
+========================================
+developer@221dd1ef5717:/home/HW1$    cd /home
+   git add -A
+   git status
+warning: CRLF will be replaced by LF in developer/.cursor-server/extensions/ms-toolsai.jupyter-2025.4.1/dist/node_modules/@aminya/node-gyp-build/LICENSE.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in developer/.cursor-server/extensions/ms-toolsai.jupyter-2025.4.1/dist/node_modules/@aminya/node-gyp-build/README.md.
+The file will have its original line endings in your working directory

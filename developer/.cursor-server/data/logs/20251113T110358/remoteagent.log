@@ -1,0 +1,17 @@
+2025-11-13 11:03:58.858 [info] 
+
+
+
+
+2025-11-13 11:03:58.862 [info] Extension host agent started.
+2025-11-13 11:03:58.865 [info] Started initializing default profile extensions in extensions installation folder. file:///home/developer/.cursor-server/extensions
+2025-11-13 11:03:58.869 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/developer/.cursor-server/extensions
+2025-11-13 11:03:59.290 [info] [127.0.0.1][261da140][ManagementConnection] New connection established.
+2025-11-13 11:03:59.296 [info] [127.0.0.1][c4375a3c][ExtensionHostConnection] New connection established.
+2025-11-13 11:03:59.302 [info] Getting extensions control
+2025-11-13 11:03:59.375 [info] [127.0.0.1][c4375a3c][ExtensionHostConnection] <306> Launched Extension Host Process.
+2025-11-13 11:05:26.685 [info] [127.0.0.1][261da140][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-13 11:05:26.717 [info] [127.0.0.1][c4375a3c][ExtensionHostConnection] <306> Extension Host Process exited with code: 0, signal: null.
+2025-11-13 11:05:26.717 [info] Cancelling previous shutdown timeout
+2025-11-13 11:05:26.717 [info] Last EH closed, waiting before shutting down
+2025-11-13 11:10:26.725 [info] Last EH closed, shutting down

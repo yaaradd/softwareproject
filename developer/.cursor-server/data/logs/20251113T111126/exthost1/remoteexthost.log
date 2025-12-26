@@ -1,0 +1,16 @@
+2025-11-13 11:11:28.087 [info] Extension host with pid 1055 started
+2025-11-13 11:11:28.087 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2025-11-13 11:11:28.104 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-13 11:11:28.126 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-11-13 11:11:28.126 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-13 11:11:28.223 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-13 11:11:28.223 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-13 11:11:28.323 [info] Eager extensions activated
+2025-11-13 11:11:28.324 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-11-13 11:11:28.324 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'onStartupFinished'
+2025-11-13 11:11:28.324 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-11-13 11:11:28.324 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-11-13 11:11:28.324 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-13 11:11:28.324 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-13 11:13:45.074 [info] Extension host terminating: received terminate message from renderer
+2025-11-13 11:13:45.092 [info] Extension host with pid 1055 exiting with code 0

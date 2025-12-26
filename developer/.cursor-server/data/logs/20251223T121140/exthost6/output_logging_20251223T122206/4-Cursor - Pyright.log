@@ -1,0 +1,13 @@
+[Info  - 12:23:50.3] [pylance import] Already imported settings globally
+[Info  - 12:23:50.18] [settings migration] Couldn't read and parse remote machine settings at /home/developer/.cursor-server/data/Machine/settings.json
+Error: ENOENT: no such file or directory, open '/home/developer/.cursor-server/data/Machine/settings.json'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1242:14)
+	at async E (/home/developer/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:293347)
+	at async /home/developer/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:289218
+	at async O (/home/developer/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:289182)
+[Info  - 12:23:50.30] failed to find pyright executable, falling back to bundled:
+basedpyright-langserver
+[Info  - 12:23:50.30] using bundled pyright
+[Info  - 12:23:50.30] running node with argzs: --max-old-space-size=3918
+[Info  - 12:23:50.30] using default node executable

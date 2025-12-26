@@ -1,0 +1,114 @@
+2025-11-13 11:11:26.688 [info] 
+
+
+
+
+2025-11-13 11:11:26.692 [info] Extension host agent started.
+2025-11-13 11:11:27.138 [info] [127.0.0.1][1d5d2ba1][ManagementConnection] New connection established.
+2025-11-13 11:11:27.152 [info] Getting extensions control
+2025-11-13 11:11:27.186 [info] [127.0.0.1][77a81b8f][ExtensionHostConnection] New connection established.
+2025-11-13 11:11:27.238 [info] [127.0.0.1][77a81b8f][ExtensionHostConnection] <1055> Launched Extension Host Process.
+2025-11-13 11:13:19.391 [info] [127.0.0.1][54c53355][ManagementConnection] New connection established.
+2025-11-13 11:13:19.408 [info] [127.0.0.1][c8307d2c][ExtensionHostConnection] New connection established.
+2025-11-13 11:13:19.439 [info] [127.0.0.1][c8307d2c][ExtensionHostConnection] <1759> Launched Extension Host Process.
+2025-11-13 11:13:44.073 [info] [127.0.0.1][54c53355][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-13 11:13:44.096 [info] [127.0.0.1][c8307d2c][ExtensionHostConnection] <1759> Extension Host Process exited with code: 0, signal: null.
+2025-11-13 11:13:44.097 [info] Cancelling previous shutdown timeout
+2025-11-13 11:13:45.074 [info] [127.0.0.1][1d5d2ba1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-13 11:13:45.100 [info] [127.0.0.1][77a81b8f][ExtensionHostConnection] <1055> Extension Host Process exited with code: 0, signal: null.
+2025-11-13 11:13:45.101 [info] Last EH closed, waiting before shutting down
+2025-11-13 11:15:36.339 [info] [127.0.0.1][2cbecf1c][ManagementConnection] New connection established.
+2025-11-13 11:15:36.353 [info] [127.0.0.1][61bd9691][ExtensionHostConnection] New connection established.
+2025-11-13 11:15:36.366 [info] [127.0.0.1][61bd9691][ExtensionHostConnection] <2365> Launched Extension Host Process.
+2025-11-13 11:17:52.272 [info] [127.0.0.1][2cbecf1c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-13 11:17:52.294 [info] [127.0.0.1][61bd9691][ExtensionHostConnection] <2365> Extension Host Process exited with code: 0, signal: null.
+2025-11-13 11:17:52.294 [info] Cancelling previous shutdown timeout
+2025-11-13 11:17:52.294 [info] Last EH closed, waiting before shutting down
+2025-11-13 11:18:43.881 [info] [127.0.0.1][d4c89d4d][ManagementConnection] New connection established.
+2025-11-13 11:18:43.887 [info] Getting extensions control
+2025-11-13 11:18:43.928 [info] [127.0.0.1][c23f87d9][ExtensionHostConnection] New connection established.
+2025-11-13 11:18:43.939 [info] [127.0.0.1][c23f87d9][ExtensionHostConnection] <3330> Launched Extension Host Process.
+2025-11-13 11:22:52.293 [info] New EH opened, aborting shutdown
+2025-11-13 11:34:53.199 [info] [127.0.0.1][c23f87d9][ExtensionHostConnection] The client has reconnected.
+2025-11-13 11:34:53.205 [info] [127.0.0.1][d4c89d4d][ManagementConnection] The client has reconnected.
+2025-11-13 12:02:51.222 [info] [127.0.0.1][d4c89d4d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-13 12:02:51.261 [info] [127.0.0.1][c23f87d9][ExtensionHostConnection] <3330> Extension Host Process exited with code: 0, signal: null.
+2025-11-13 12:02:51.262 [info] Last EH closed, waiting before shutting down
+2025-11-13 12:03:05.795 [info] [127.0.0.1][c5282d21][ManagementConnection] New connection established.
+2025-11-13 12:03:05.800 [info] Getting extensions control
+2025-11-13 12:03:05.850 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] New connection established.
+2025-11-13 12:03:05.861 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] <8440> Launched Extension Host Process.
+2025-11-13 12:07:51.265 [info] New EH opened, aborting shutdown
+2025-11-13 12:09:38.582 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-13 12:09:38.591 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-15 13:24:33.610 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-15 13:24:33.624 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-15 16:11:21.287 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-15 16:11:21.295 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-15 16:44:31.205 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-15 17:14:13.259 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-15 17:14:13.272 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-15 17:56:34.076 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-15 17:56:34.085 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-15 18:17:50.812 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-15 18:17:50.828 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-15 19:53:07.262 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-15 19:53:07.273 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 07:21:52.236 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 07:21:52.238 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 07:55:05.208 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 07:55:05.220 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 07:55:58.216 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 07:55:58.231 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 12:25:35.592 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 12:25:35.604 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 16:19:26.123 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 16:19:26.135 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 16:31:15.214 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 16:31:15.227 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 17:00:45.997 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 17:00:46.007 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 18:59:18.631 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 18:59:18.638 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 20:31:54.312 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-16 20:31:54.335 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 22:20:06.107 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-16 22:20:06.157 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 05:46:50.502 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 05:46:50.511 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 06:21:06.558 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 06:21:06.568 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 08:32:20.383 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 08:32:20.398 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 08:57:58.857 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 08:57:58.863 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 09:42:24.018 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 09:42:24.034 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 10:14:16.164 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 10:14:16.177 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 12:12:41.652 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 12:12:41.669 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 14:22:15.492 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 14:22:15.896 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 17:37:14.260 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 17:37:14.275 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 17:59:55.359 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 17:59:55.384 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 20:38:44.953 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 20:38:44.961 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 20:38:56.371 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-17 20:38:56.383 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 20:41:23.536 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-17 20:41:23.551 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-18 07:31:33.177 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-18 07:31:33.211 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-18 07:48:05.872 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-18 07:48:05.897 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-18 12:44:28.976 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-18 12:44:28.988 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-18 17:14:15.746 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has reconnected.
+2025-11-18 17:14:15.754 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] The client has reconnected.
+2025-11-18 17:33:23.613 [info] [127.0.0.1][c5282d21][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-18 17:33:23.711 [info] [127.0.0.1][4aa6616f][ExtensionHostConnection] <8440> Extension Host Process exited with code: 0, signal: null.
+2025-11-18 17:33:23.711 [info] Last EH closed, waiting before shutting down
+2025-11-18 17:38:23.713 [info] Last EH closed, shutting down

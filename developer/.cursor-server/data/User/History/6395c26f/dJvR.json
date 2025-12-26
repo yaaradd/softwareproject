@@ -1,0 +1,7 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Cursor Light",
+    "remote.SSH.remotePlatform": {
+        "softwareproject": "linux"
+    }
+}

@@ -1,0 +1,22 @@
+2025-12-23 12:19:12.443 [error] Error getting repo info: Failed to execute git
+2025-12-23 12:19:12.443 [error] Error: Failed to execute git
+	at t.Git._exec (/home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/extensions/git/dist/main.js:2:34792)
+	at async t.Git.exec (/home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/extensions/git/dist/main.js:2:33915)
+	at async t.GitProvider.executeGitCommandStable (/home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/extensions/cursor-retrieval/dist/main.js:2:1423402)
+	at async t.GitProvider.getRepoInfo (/home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/extensions/cursor-retrieval/dist/main.js:2:1399204)
+2025-12-23 12:19:12.443 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-12-23 12:19:12.443 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-12-23 12:19:12.451 [info] Using existing keys for an index
+2025-12-23 12:19:12.451 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-12-23 12:19:12.690 [info] Using existing keys for an index
+2025-12-23 12:19:12.690 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-12-23 12:19:12.696 [info] Starting RepoIndexWatcher for repo: 7ed9b374-ac3e-4c22-853b-b455e8af67c3, owner: google-oauth2|user_01K9CX87J3PR1T4Q6AB6V86KJC
+2025-12-23 12:19:12.696 [error] We currently do not allow indexing the home directory.
+2025-12-23 12:19:12.696 [info] Indexing job successfully done or aborted.
+2025-12-23 12:19:12.930 [error] Error getting repo info: Failed to execute git
+2025-12-23 12:19:12.932 [warning] Failed to get symbolic ref: Failed to execute git
+2025-12-23 12:19:12.934 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/developer/.git/HEAD')
+2025-12-23 12:19:12.953 [warning] Failed to get branches from remote: Failed to execute git
+2025-12-23 12:19:12.963 [warning] Failed to get default branch from git config: Failed to execute git
+2025-12-23 12:21:11.335 [info] multiCodebaseIndexingJob dispose
+2025-12-23 12:21:11.335 [info] Aborting indexing job.

@@ -1,0 +1,51 @@
+2025-12-23 12:22:06.907 [info] Extension host with pid 87949 started
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] dirname: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/out/vs/workbench/api/node
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] Linux sandbox helper path: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/resources/helpers/cursor-sandbox
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] process.resourcesPath: undefined
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] process.execPath: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/node
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] ripgrep path for sandboxing: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/node_modules/@vscode/ripgrep/bin/rg
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/resources/helpers/cursor-sandbox undefined
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary found at: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/resources/helpers/cursor-sandbox undefined
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Running preflight with binary: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/resources/helpers/cursor-sandbox undefined
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] CWD: /home/developer undefined
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Preflight failed: Command failed: /home/developer/.cursor-server/bin/32cfbe848b35d9eb320980195985450f244b3030/resources/helpers/cursor-sandbox --sandbox-policy-cwd /home/developer --sandbox-policy {"type":"workspace_readwrite","cwd":"/home/developer","additional_readwrite_paths":[],"additional_readonly_paths":[],"network_access":false,"disable_tmp_write":false,"block_git_writes":false} --preflight-only -- /bin/true undefined
+2025-12-23 12:22:06.907 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Exit status: 1 undefined
+2025-12-23 12:22:06.907 [info] [ExtHostShellExec] Sandbox support detected: false
+2025-12-23 12:22:06.916 [info] Lock '/home/developer/.cursor-server/data/User/workspaceStorage/b2da926005277196ddeb1feb5a56c338/vscode.lock': Lock acquired.
+2025-12-23 12:22:06.934 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2025-12-23 12:22:06.934 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-12-23 12:22:06.934 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-23 12:22:07.243 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-12-23 12:22:07.244 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-12-23 12:22:07.492 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-23 12:22:07.790 [info] Eager extensions activated
+2025-12-23 12:22:07.791 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 12:22:07.791 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 12:22:07.791 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 12:22:07.791 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 12:22:07.792 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-23 12:23:12.801 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-12-23 12:23:17.945 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-23 12:23:17.945 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-23 12:23:17.945 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-23 12:23:49.643 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-12-23 12:23:49.643 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-12-23 12:23:49.644 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2025-12-23 12:23:49.910 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-12-23 12:23:50.224 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-23 12:23:50.323 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-23 12:23:50.569 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-12-23 13:21:50.226 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2025-12-23 13:21:50.228 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2025-12-23 13:21:50.228 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2025-12-23 13:21:50.229 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onTaskType:typescript'
+2025-12-23 13:21:55.366 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-12-23 13:22:28.798 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-12-23 13:22:52.787 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-12-23 13:22:55.424 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-12-23 13:24:06.851 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-12-26 11:33:22.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10003

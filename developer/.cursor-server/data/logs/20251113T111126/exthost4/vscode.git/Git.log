@@ -1,0 +1,19 @@
+2025-11-13 11:18:45.112 [info] [main] Log level: Info
+2025-11-13 11:18:45.112 [info] [main] Validating found git in: "git"
+2025-11-13 11:18:45.112 [info] [main] Using git "2.34.1" from "git"
+2025-11-13 11:18:45.113 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-13 11:18:45.114 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-13 11:18:45.133 [info] > git config --get remote.origin.url [8ms]
+2025-11-13 11:18:54.953 [info] > git config --global user.name [3ms]
+2025-11-13 11:18:54.960 [info] > git config --global user.email [2ms]
+2025-11-13 11:18:54.960 [info] [main] Stored git author name in global state:  <>
+2025-11-13 11:28:19.388 [info] > git config user.email [2ms]
+2025-11-13 11:28:19.406 [info] > git config user.name [4ms]
+2025-11-13 11:28:19.412 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author developer [3ms]
+2025-11-13 11:28:19.412 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-13 12:00:21.579 [info] > git config user.email [3ms]
+2025-11-13 12:00:21.588 [info] > git config user.name [3ms]
+2025-11-13 12:00:21.593 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author developer [2ms]
+2025-11-13 12:00:21.593 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

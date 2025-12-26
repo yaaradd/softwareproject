@@ -1,0 +1,532 @@
+2025-12-23 12:11:40.961 [info] 
+
+
+
+
+2025-12-23 12:11:40.965 [info] [CursorProclistService] Native module loaded successfully
+2025-12-23 12:11:40.966 [info] Extension host agent started.
+2025-12-23 12:11:41.407 [info] [127.0.0.1][c6817cc7][ManagementConnection] New connection established.
+2025-12-23 12:11:41.417 [info] [127.0.0.1][4c7dfee2][ExtensionHostConnection] New connection established.
+2025-12-23 12:11:41.423 [info] Getting extensions control
+2025-12-23 12:11:41.425 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-23 12:11:41.510 [info] [127.0.0.1][4c7dfee2][ExtensionHostConnection] <83443> Launched Extension Host Process.
+2025-12-23 12:11:58.199 [info] [127.0.0.1][c6817cc7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-23 12:11:58.229 [info] [127.0.0.1][4c7dfee2][ExtensionHostConnection] <83443> Extension Host Process exited with code: 0, signal: null.
+2025-12-23 12:11:58.229 [info] Cancelling previous shutdown timeout
+2025-12-23 12:11:58.230 [info] Last EH closed, waiting before shutting down
+2025-12-23 12:12:49.629 [info] [127.0.0.1][b88f78c9][ManagementConnection] New connection established.
+2025-12-23 12:12:49.642 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-23 12:12:49.653 [info] [127.0.0.1][00aba17c][ExtensionHostConnection] New connection established.
+2025-12-23 12:12:49.670 [info] [127.0.0.1][00aba17c][ExtensionHostConnection] <83781> Launched Extension Host Process.
+2025-12-23 12:16:58.267 [info] New EH opened, aborting shutdown
+2025-12-23 12:17:49.703 [info] [CursorProclistService] Sample 0 created: 4 processes, 31 subsamples
+2025-12-23 12:18:03.664 [info] [127.0.0.1][3238e240][ManagementConnection] New connection established.
+2025-12-23 12:18:03.670 [info] [127.0.0.1][78cf58ff][ExtensionHostConnection] New connection established.
+2025-12-23 12:18:03.695 [info] [127.0.0.1][78cf58ff][ExtensionHostConnection] <85767> Launched Extension Host Process.
+2025-12-23 12:18:03.702 [info] Getting extensions control
+2025-12-23 12:18:03.705 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-23 12:19:01.400 [info] [127.0.0.1][3238e240][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-23 12:19:01.444 [info] [127.0.0.1][78cf58ff][ExtensionHostConnection] <85767> Extension Host Process exited with code: 0, signal: null.
+2025-12-23 12:19:09.771 [info] [127.0.0.1][0d58f958][ManagementConnection] New connection established.
+2025-12-23 12:19:09.779 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-23 12:19:09.859 [info] [127.0.0.1][d119cfdb][ExtensionHostConnection] New connection established.
+2025-12-23 12:19:09.871 [info] [127.0.0.1][d119cfdb][ExtensionHostConnection] <86414> Launched Extension Host Process.
+2025-12-23 12:21:11.280 [info] [127.0.0.1][0d58f958][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-23 12:21:11.355 [info] [127.0.0.1][d119cfdb][ExtensionHostConnection] <86414> Extension Host Process exited with code: 0, signal: null.
+2025-12-23 12:21:42.426 [info] [127.0.0.1][5bc2d60c][ManagementConnection] New connection established.
+2025-12-23 12:21:42.439 [info] [127.0.0.1][bb68d4c0][ExtensionHostConnection] New connection established.
+2025-12-23 12:21:42.461 [info] [127.0.0.1][bb68d4c0][ExtensionHostConnection] <87562> Launched Extension Host Process.
+2025-12-23 12:21:42.473 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-23 12:21:58.741 [info] [127.0.0.1][5bc2d60c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-23 12:21:58.788 [info] [127.0.0.1][bb68d4c0][ExtensionHostConnection] <87562> Extension Host Process exited with code: 0, signal: null.
+2025-12-23 12:22:05.287 [info] [127.0.0.1][36d672c8][ManagementConnection] New connection established.
+2025-12-23 12:22:05.296 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-23 12:22:05.300 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] New connection established.
+2025-12-23 12:22:05.319 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] <87949> Launched Extension Host Process.
+2025-12-23 12:22:49.703 [info] [CursorProclistService] Sample 1 created: 7 processes, 6 subsamples
+2025-12-23 12:23:29.703 [info] Getting extensions control
+2025-12-23 12:23:38.536 [info] Getting Manifest... ms-python.python
+2025-12-23 12:23:39.589 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:39.949 [info] Getting Manifest... anysphere.cursorpyright
+2025-12-23 12:23:40.909 [info] Getting Manifest... ms-toolsai.jupyter
+2025-12-23 12:23:41.584 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2025-12-23 12:23:42.253 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2025-12-23 12:23:42.825 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2025-12-23 12:23:43.393 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2025-12-23 12:23:44.078 [info] Installing extension: anysphere.cursorpyright {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:44.079 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:44.080 [info] Installing extension: ms-toolsai.jupyter-renderers {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:44.081 [info] Installing extension: ms-toolsai.jupyter-keymap {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:44.081 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:44.082 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"donotVerifySignature":true,"context":{"clientTargetPlatform":"darwin-arm64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/developer/.cursor-server/extensions/extensions.json","external":"file:///home/developer/.cursor-server/extensions/extensions.json","path":"/home/developer/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"2.2.43","date":"2025-12-19T06:06:44.644Z","vscodeVersion":"1.105.1"}}
+2025-12-23 12:23:44.088 [info] Started downloading extension: ms-python.python 2023.6.0 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/ms-python.python-2023.6.0
+2025-12-23 12:23:44.090 [info] Started downloading extension: anysphere.cursorpyright 1.0.10 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/anysphere.cursorpyright-1.0.10
+2025-12-23 12:23:44.092 [info] Started downloading extension: ms-toolsai.jupyter 2025.4.1 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2025.4.1
+2025-12-23 12:23:44.095 [info] Started downloading extension: ms-toolsai.jupyter-renderers 1.3.0 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.3.0-universal
+2025-12-23 12:23:44.096 [info] Started downloading extension: ms-toolsai.jupyter-keymap 1.1.2 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.2-universal
+2025-12-23 12:23:44.099 [info] Started downloading extension: ms-toolsai.vscode-jupyter-cell-tags 0.1.9 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+2025-12-23 12:23:44.102 [info] Started downloading extension: ms-toolsai.vscode-jupyter-slideshow 0.1.6 file:///home/developer/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+2025-12-23 12:23:44.768 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2025-12-23 12:23:44.772 [info] Renamed to /home/developer/.cursor-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2025-12-23 12:23:44.793 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+2025-12-23 12:23:44.799 [info] Renamed to /home/developer/.cursor-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+2025-12-23 12:23:44.932 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+2025-12-23 12:23:44.935 [info] Renamed to /home/developer/.cursor-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+2025-12-23 12:23:45.048 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal: ms-toolsai.jupyter-renderers
+2025-12-23 12:23:45.052 [info] Renamed to /home/developer/.cursor-server/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal
+2025-12-23 12:23:46.835 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/ms-toolsai.jupyter-2025.4.1: ms-toolsai.jupyter
+2025-12-23 12:23:46.845 [info] Renamed to /home/developer/.cursor-server/extensions/ms-toolsai.jupyter-2025.4.1
+2025-12-23 12:23:48.985 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/ms-python.python-2023.6.0: ms-python.python
+2025-12-23 12:23:49.097 [info] Renamed to /home/developer/.cursor-server/extensions/ms-python.python-2023.6.0
+2025-12-23 12:23:49.146 [info] Extracted extension to file:///home/developer/.cursor-server/extensions/anysphere.cursorpyright-1.0.10: anysphere.cursorpyright
+2025-12-23 12:23:49.392 [info] Renamed to /home/developer/.cursor-server/extensions/anysphere.cursorpyright-1.0.10
+2025-12-23 12:23:49.399 [info] Extension installed successfully: ms-toolsai.jupyter-keymap file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:23:49.399 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:23:49.399 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:23:49.399 [info] Extension installed successfully: ms-toolsai.jupyter-renderers file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:23:49.399 [info] Extension installed successfully: ms-toolsai.jupyter file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:23:49.399 [info] Extension installed successfully: ms-python.python file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:23:49.399 [info] Extension installed successfully: anysphere.cursorpyright file:///home/developer/.cursor-server/extensions/extensions.json
+2025-12-23 12:27:05.314 [info] [CursorProclistService] Sample 2 created: 9 processes, 26 subsamples
+2025-12-23 12:27:49.700 [info] [CursorProclistService] Sample 3 created: 9 processes, 6 subsamples
+2025-12-23 12:32:05.293 [info] [CursorProclistService] Sample 4 created: 10 processes, 26 subsamples
+2025-12-23 12:32:49.663 [info] [CursorProclistService] Sample 5 created: 9 processes, 6 subsamples
+2025-12-23 12:37:05.275 [info] [CursorProclistService] Sample 6 created: 9 processes, 26 subsamples
+2025-12-23 12:37:49.661 [info] [CursorProclistService] Sample 7 created: 9 processes, 6 subsamples
+2025-12-23 12:42:05.273 [info] [CursorProclistService] Sample 8 created: 9 processes, 26 subsamples
+2025-12-23 12:43:36.187 [info] [CursorProclistService] Sample 9 created: 9 processes, 11 subsamples
+2025-12-23 12:47:05.259 [info] [CursorProclistService] Sample 10 created: 12 processes, 21 subsamples
+2025-12-23 12:49:21.646 [info] [CursorProclistService] Sample 11 created: 9 processes, 15 subsamples
+2025-12-23 12:52:05.249 [info] [CursorProclistService] Sample 12 created: 10 processes, 17 subsamples
+2025-12-23 12:54:36.125 [info] [CursorProclistService] Sample 13 created: 12 processes, 17 subsamples
+2025-12-23 12:57:05.252 [info] [CursorProclistService] Sample 14 created: 9 processes, 15 subsamples
+2025-12-23 12:59:36.138 [info] [CursorProclistService] Sample 15 created: 9 processes, 17 subsamples
+2025-12-23 13:02:05.242 [info] [CursorProclistService] Sample 16 created: 9 processes, 15 subsamples
+2025-12-23 13:04:36.154 [info] [CursorProclistService] Sample 17 created: 15 processes, 17 subsamples
+2025-12-23 13:07:05.265 [info] [CursorProclistService] Sample 18 created: 9 processes, 15 subsamples
+2025-12-23 13:09:36.152 [info] [CursorProclistService] Sample 19 created: 9 processes, 17 subsamples
+2025-12-23 13:12:05.264 [info] [CursorProclistService] Sample 20 created: 9 processes, 15 subsamples
+2025-12-23 13:14:36.147 [info] [CursorProclistService] Sample 21 created: 15 processes, 16 subsamples
+2025-12-23 13:17:05.261 [info] [CursorProclistService] Sample 22 created: 12 processes, 16 subsamples
+2025-12-23 13:19:36.172 [info] [CursorProclistService] Sample 23 created: 13 processes, 16 subsamples
+2025-12-23 13:22:05.280 [info] [CursorProclistService] Sample 24 created: 10 processes, 16 subsamples
+2025-12-23 13:24:36.157 [info] [CursorProclistService] Sample 25 created: 9 processes, 16 subsamples
+2025-12-23 13:27:05.283 [info] [CursorProclistService] Sample 26 created: 9 processes, 16 subsamples
+2025-12-23 13:29:36.172 [info] [CursorProclistService] Sample 27 created: 20 processes, 16 subsamples
+2025-12-23 13:32:05.286 [info] [CursorProclistService] Sample 28 created: 9 processes, 16 subsamples
+2025-12-23 13:34:36.147 [info] [CursorProclistService] Sample 29 created: 10 processes, 16 subsamples
+2025-12-23 13:37:05.254 [info] [CursorProclistService] Sample 30 created: 11 processes, 16 subsamples
+2025-12-23 13:39:36.153 [info] [CursorProclistService] Sample 31 created: 13 processes, 16 subsamples
+2025-12-23 13:42:05.259 [info] [CursorProclistService] Sample 32 created: 19 processes, 16 subsamples
+2025-12-23 13:44:27.394 [info] [CursorProclistService] Sample 33 created: 18 processes, 16 subsamples
+2025-12-23 13:47:49.684 [info] [CursorProclistService] Sample 34 created: 9 processes, 21 subsamples
+2025-12-23 13:48:36.187 [info] [CursorProclistService] Sample 35 created: 9 processes, 5 subsamples
+2025-12-23 13:52:49.686 [info] [CursorProclistService] Sample 36 created: 9 processes, 27 subsamples
+2025-12-23 13:53:36.184 [info] [CursorProclistService] Sample 37 created: 9 processes, 5 subsamples
+2025-12-23 13:56:34.603 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-23 13:56:34.609 [info] [127.0.0.1][00aba17c][ExtensionHostConnection] The client has reconnected.
+2025-12-23 13:56:34.714 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-23 13:56:34.744 [info] [127.0.0.1][b88f78c9][ManagementConnection] The client has reconnected.
+2025-12-23 14:02:49.851 [info] [CursorProclistService] Sample 38 created: 12 processes, 27 subsamples
+2025-12-23 14:03:36.211 [info] [CursorProclistService] Sample 39 created: 9 processes, 5 subsamples
+2025-12-23 14:05:02.747 [info] [127.0.0.1][b88f78c9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-23 14:05:02.849 [info] [127.0.0.1][00aba17c][ExtensionHostConnection] <83781> Extension Host Process exited with code: 0, signal: null.
+2025-12-23 14:05:20.311 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-23 14:05:20.333 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-23 14:09:11.109 [info] [CursorProclistService] Sample 40 created: 9 processes, 31 subsamples
+2025-12-23 14:14:11.100 [info] [CursorProclistService] Sample 41 created: 6 processes, 31 subsamples
+2025-12-23 14:19:11.125 [info] [CursorProclistService] Sample 42 created: 6 processes, 31 subsamples
+2025-12-23 14:24:11.089 [info] [CursorProclistService] Sample 43 created: 6 processes, 31 subsamples
+2025-12-23 14:29:11.094 [info] [CursorProclistService] Sample 44 created: 6 processes, 31 subsamples
+2025-12-23 14:34:11.096 [info] [CursorProclistService] Sample 45 created: 6 processes, 31 subsamples
+2025-12-23 14:39:11.088 [info] [CursorProclistService] Sample 46 created: 6 processes, 31 subsamples
+2025-12-23 14:44:11.111 [info] [CursorProclistService] Sample 47 created: 6 processes, 31 subsamples
+2025-12-23 14:49:11.119 [info] [CursorProclistService] Sample 48 created: 6 processes, 31 subsamples
+2025-12-23 14:54:11.119 [info] [CursorProclistService] Sample 49 created: 6 processes, 31 subsamples
+2025-12-23 14:59:11.163 [info] [CursorProclistService] Sample 50 created: 6 processes, 31 subsamples
+2025-12-23 15:01:58.486 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-23 15:01:58.550 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-23 15:09:08.225 [info] [CursorProclistService] Sample 51 created: 7 processes, 31 subsamples
+2025-12-23 15:14:08.234 [info] [CursorProclistService] Sample 52 created: 8 processes, 31 subsamples
+2025-12-23 15:19:08.279 [info] [CursorProclistService] Sample 53 created: 6 processes, 31 subsamples
+2025-12-23 15:24:08.257 [info] [CursorProclistService] Sample 54 created: 6 processes, 31 subsamples
+2025-12-23 15:29:08.266 [info] [CursorProclistService] Sample 55 created: 6 processes, 31 subsamples
+2025-12-23 15:34:08.258 [info] [CursorProclistService] Sample 56 created: 7 processes, 31 subsamples
+2025-12-23 15:39:08.253 [info] [CursorProclistService] Sample 57 created: 7 processes, 31 subsamples
+2025-12-23 15:44:08.282 [info] [CursorProclistService] Sample 58 created: 8 processes, 31 subsamples
+2025-12-23 15:49:08.301 [info] [CursorProclistService] Sample 59 created: 9 processes, 31 subsamples
+2025-12-23 15:54:08.220 [info] [CursorProclistService] Sample 60 created: 6 processes, 31 subsamples
+2025-12-23 15:59:08.330 [info] [CursorProclistService] Sample 61 created: 6 processes, 31 subsamples
+2025-12-23 16:04:08.232 [info] [CursorProclistService] Sample 62 created: 6 processes, 31 subsamples
+2025-12-23 16:09:08.235 [info] [CursorProclistService] Sample 63 created: 9 processes, 31 subsamples
+2025-12-23 16:14:08.223 [info] [CursorProclistService] Sample 64 created: 6 processes, 31 subsamples
+2025-12-23 16:18:50.459 [info] [CursorProclistService] Sample 65 created: 6 processes, 29 subsamples
+2025-12-23 16:24:08.255 [info] [CursorProclistService] Sample 66 created: 12 processes, 33 subsamples
+2025-12-23 16:29:08.265 [info] [CursorProclistService] Sample 67 created: 6 processes, 31 subsamples
+2025-12-23 16:34:08.253 [info] [CursorProclistService] Sample 68 created: 9 processes, 31 subsamples
+2025-12-23 16:39:08.266 [info] [CursorProclistService] Sample 69 created: 6 processes, 31 subsamples
+2025-12-23 16:44:08.259 [info] [CursorProclistService] Sample 70 created: 7 processes, 31 subsamples
+2025-12-23 16:49:08.271 [info] [CursorProclistService] Sample 71 created: 6 processes, 31 subsamples
+2025-12-23 16:54:08.286 [info] [CursorProclistService] Sample 72 created: 6 processes, 31 subsamples
+2025-12-23 16:59:08.271 [info] [CursorProclistService] Sample 73 created: 6 processes, 31 subsamples
+2025-12-23 17:04:08.396 [info] [CursorProclistService] Sample 74 created: 6 processes, 31 subsamples
+2025-12-23 17:09:08.246 [info] [CursorProclistService] Sample 75 created: 6 processes, 31 subsamples
+2025-12-23 17:14:08.234 [info] [CursorProclistService] Sample 76 created: 6 processes, 31 subsamples
+2025-12-23 17:19:08.279 [info] [CursorProclistService] Sample 77 created: 12 processes, 31 subsamples
+2025-12-23 17:24:08.250 [info] [CursorProclistService] Sample 78 created: 6 processes, 31 subsamples
+2025-12-23 17:29:08.258 [info] [CursorProclistService] Sample 79 created: 10 processes, 31 subsamples
+2025-12-23 17:34:08.249 [info] [CursorProclistService] Sample 80 created: 6 processes, 31 subsamples
+2025-12-23 17:39:08.268 [info] [CursorProclistService] Sample 81 created: 6 processes, 31 subsamples
+2025-12-23 17:44:08.240 [info] [CursorProclistService] Sample 82 created: 9 processes, 31 subsamples
+2025-12-23 17:49:08.260 [info] [CursorProclistService] Sample 83 created: 9 processes, 31 subsamples
+2025-12-23 17:54:08.284 [info] [CursorProclistService] Sample 84 created: 6 processes, 31 subsamples
+2025-12-23 17:59:08.275 [info] [CursorProclistService] Sample 85 created: 7 processes, 31 subsamples
+2025-12-23 18:04:08.254 [info] [CursorProclistService] Sample 86 created: 6 processes, 31 subsamples
+2025-12-23 18:09:08.276 [info] [CursorProclistService] Sample 87 created: 6 processes, 31 subsamples
+2025-12-23 18:11:01.808 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-23 18:11:01.813 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-23 19:38:38.812 [info] [CursorProclistService] Sample 88 created: 6 processes, 31 subsamples
+2025-12-23 23:04:15.091 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-23 23:04:15.134 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-23 23:32:12.239 [info] [CursorProclistService] Sample 89 created: 7 processes, 31 subsamples
+2025-12-23 23:37:12.229 [info] [CursorProclistService] Sample 90 created: 6 processes, 31 subsamples
+2025-12-23 23:42:12.287 [info] [CursorProclistService] Sample 91 created: 6 processes, 31 subsamples
+2025-12-23 23:47:12.297 [info] [CursorProclistService] Sample 92 created: 8 processes, 31 subsamples
+2025-12-23 23:52:12.299 [info] [CursorProclistService] Sample 93 created: 6 processes, 31 subsamples
+2025-12-23 23:57:12.386 [info] [CursorProclistService] Sample 94 created: 8 processes, 31 subsamples
+2025-12-24 00:02:12.323 [info] [CursorProclistService] Sample 95 created: 9 processes, 31 subsamples
+2025-12-24 00:07:12.334 [info] [CursorProclistService] Sample 96 created: 6 processes, 31 subsamples
+2025-12-24 00:12:12.366 [info] [CursorProclistService] Sample 97 created: 6 processes, 31 subsamples
+2025-12-24 00:17:12.360 [info] [CursorProclistService] Sample 98 created: 6 processes, 31 subsamples
+2025-12-24 00:22:12.371 [info] [CursorProclistService] Sample 99 created: 6 processes, 31 subsamples
+2025-12-24 00:27:12.365 [info] [CursorProclistService] Sample 100 created: 6 processes, 31 subsamples
+2025-12-24 01:04:33.701 [info] [CursorProclistService] Sample 101 created: 6 processes, 31 subsamples
+2025-12-24 02:14:07.094 [info] [CursorProclistService] Sample 102 created: 6 processes, 31 subsamples
+2025-12-24 03:04:43.879 [info] [CursorProclistService] Sample 103 created: 6 processes, 31 subsamples
+2025-12-24 03:31:08.036 [info] [CursorProclistService] Sample 104 created: 7 processes, 31 subsamples
+2025-12-24 03:36:08.032 [info] [CursorProclistService] Sample 105 created: 6 processes, 31 subsamples
+2025-12-24 04:13:10.321 [info] [CursorProclistService] Sample 106 created: 6 processes, 31 subsamples
+2025-12-24 04:50:08.850 [info] [CursorProclistService] Sample 107 created: 6 processes, 31 subsamples
+2025-12-24 05:10:14.021 [info] [CursorProclistService] Sample 108 created: 6 processes, 31 subsamples
+2025-12-24 05:18:35.023 [info] [CursorProclistService] Sample 109 created: 7 processes, 30 subsamples
+2025-12-24 05:23:35.020 [info] [CursorProclistService] Sample 110 created: 6 processes, 31 subsamples
+2025-12-24 05:28:35.019 [info] [CursorProclistService] Sample 111 created: 6 processes, 31 subsamples
+2025-12-24 05:33:35.098 [info] [CursorProclistService] Sample 112 created: 6 processes, 31 subsamples
+2025-12-24 05:38:35.072 [info] [CursorProclistService] Sample 113 created: 6 processes, 31 subsamples
+2025-12-24 05:43:35.090 [info] [CursorProclistService] Sample 114 created: 7 processes, 31 subsamples
+2025-12-24 05:48:35.134 [info] [CursorProclistService] Sample 115 created: 6 processes, 31 subsamples
+2025-12-24 05:53:35.133 [info] [CursorProclistService] Sample 116 created: 9 processes, 31 subsamples
+2025-12-24 05:58:35.132 [info] [CursorProclistService] Sample 117 created: 9 processes, 31 subsamples
+2025-12-24 06:03:35.147 [info] [CursorProclistService] Sample 118 created: 9 processes, 31 subsamples
+2025-12-24 06:08:35.148 [info] [CursorProclistService] Sample 119 created: 6 processes, 31 subsamples
+2025-12-24 06:13:35.165 [info] [CursorProclistService] Sample 120 created: 6 processes, 31 subsamples
+2025-12-24 06:49:33.423 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 06:49:33.430 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 06:49:56.017 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 06:49:56.097 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 07:08:30.796 [info] [CursorProclistService] Sample 121 created: 6 processes, 31 subsamples
+2025-12-24 07:33:51.741 [info] [CursorProclistService] Sample 122 created: 7 processes, 31 subsamples
+2025-12-24 08:09:54.185 [info] [CursorProclistService] Sample 123 created: 9 processes, 31 subsamples
+2025-12-24 08:14:54.129 [info] [CursorProclistService] Sample 124 created: 6 processes, 31 subsamples
+2025-12-24 08:19:54.147 [info] [CursorProclistService] Sample 125 created: 6 processes, 31 subsamples
+2025-12-24 08:24:50.809 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 08:24:50.827 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 08:24:50.851 [info] [CursorProclistService] Sample 126 created: 6 processes, 31 subsamples
+2025-12-24 08:29:54.172 [info] [CursorProclistService] Sample 127 created: 6 processes, 31 subsamples
+2025-12-24 08:41:25.571 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 08:41:25.644 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 08:44:40.068 [info] [CursorProclistService] Sample 128 created: 6 processes, 31 subsamples
+2025-12-24 09:33:51.825 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 09:33:51.849 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 09:45:05.473 [info] [CursorProclistService] Sample 129 created: 9 processes, 31 subsamples
+2025-12-24 09:52:19.511 [info] [CursorProclistService] Sample 130 created: 6 processes, 31 subsamples
+2025-12-24 09:57:19.519 [info] [CursorProclistService] Sample 131 created: 6 processes, 31 subsamples
+2025-12-24 10:02:19.526 [info] [CursorProclistService] Sample 132 created: 6 processes, 31 subsamples
+2025-12-24 10:07:19.507 [info] [CursorProclistService] Sample 133 created: 6 processes, 31 subsamples
+2025-12-24 10:12:19.575 [info] [CursorProclistService] Sample 134 created: 6 processes, 31 subsamples
+2025-12-24 10:17:19.565 [info] [CursorProclistService] Sample 135 created: 6 processes, 31 subsamples
+2025-12-24 10:22:19.588 [info] [CursorProclistService] Sample 136 created: 6 processes, 31 subsamples
+2025-12-24 10:27:19.569 [info] [CursorProclistService] Sample 137 created: 6 processes, 31 subsamples
+2025-12-24 10:32:19.530 [info] [CursorProclistService] Sample 138 created: 7 processes, 31 subsamples
+2025-12-24 10:37:19.532 [info] [CursorProclistService] Sample 139 created: 6 processes, 31 subsamples
+2025-12-24 10:42:19.524 [info] [CursorProclistService] Sample 140 created: 6 processes, 31 subsamples
+2025-12-24 10:47:19.552 [info] [CursorProclistService] Sample 141 created: 6 processes, 31 subsamples
+2025-12-24 11:35:04.408 [info] [CursorProclistService] Sample 142 created: 7 processes, 31 subsamples
+2025-12-24 11:59:09.110 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 11:59:09.181 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 12:04:24.121 [info] [CursorProclistService] Sample 143 created: 6 processes, 31 subsamples
+2025-12-24 12:09:24.108 [info] [CursorProclistService] Sample 144 created: 7 processes, 31 subsamples
+2025-12-24 12:14:24.096 [info] [CursorProclistService] Sample 145 created: 6 processes, 31 subsamples
+2025-12-24 12:19:24.109 [info] [CursorProclistService] Sample 146 created: 6 processes, 31 subsamples
+2025-12-24 12:24:24.072 [info] [CursorProclistService] Sample 147 created: 6 processes, 31 subsamples
+2025-12-24 12:29:24.061 [info] [CursorProclistService] Sample 148 created: 6 processes, 31 subsamples
+2025-12-24 12:34:24.061 [info] [CursorProclistService] Sample 149 created: 6 processes, 31 subsamples
+2025-12-24 12:39:24.165 [info] [CursorProclistService] Sample 150 created: 6 processes, 31 subsamples
+2025-12-24 12:44:24.102 [info] [CursorProclistService] Sample 151 created: 6 processes, 31 subsamples
+2025-12-24 12:49:24.087 [info] [CursorProclistService] Sample 152 created: 6 processes, 31 subsamples
+2025-12-24 12:54:24.065 [info] [CursorProclistService] Sample 153 created: 6 processes, 31 subsamples
+2025-12-24 12:59:24.045 [info] [CursorProclistService] Sample 154 created: 6 processes, 31 subsamples
+2025-12-24 13:12:50.749 [info] [CursorProclistService] Sample 155 created: 6 processes, 31 subsamples
+2025-12-24 13:37:01.952 [info] [CursorProclistService] Sample 156 created: 6 processes, 31 subsamples
+2025-12-24 13:42:01.954 [info] [CursorProclistService] Sample 157 created: 6 processes, 31 subsamples
+2025-12-24 13:47:02.010 [info] [CursorProclistService] Sample 158 created: 6 processes, 31 subsamples
+2025-12-24 13:52:01.949 [info] [CursorProclistService] Sample 159 created: 6 processes, 31 subsamples
+2025-12-24 13:57:01.953 [info] [CursorProclistService] Sample 160 created: 7 processes, 31 subsamples
+2025-12-24 14:02:01.953 [info] [CursorProclistService] Sample 161 created: 6 processes, 31 subsamples
+2025-12-24 14:07:01.943 [info] [CursorProclistService] Sample 162 created: 6 processes, 31 subsamples
+2025-12-24 14:12:01.931 [info] [CursorProclistService] Sample 163 created: 6 processes, 31 subsamples
+2025-12-24 14:17:01.916 [info] [CursorProclistService] Sample 164 created: 7 processes, 31 subsamples
+2025-12-24 14:22:01.932 [info] [CursorProclistService] Sample 165 created: 6 processes, 31 subsamples
+2025-12-24 14:27:01.933 [info] [CursorProclistService] Sample 166 created: 7 processes, 31 subsamples
+2025-12-24 14:32:01.949 [info] [CursorProclistService] Sample 167 created: 6 processes, 31 subsamples
+2025-12-24 14:37:01.946 [info] [CursorProclistService] Sample 168 created: 6 processes, 31 subsamples
+2025-12-24 14:42:01.937 [info] [CursorProclistService] Sample 169 created: 6 processes, 31 subsamples
+2025-12-24 14:47:01.929 [info] [CursorProclistService] Sample 170 created: 6 processes, 31 subsamples
+2025-12-24 14:52:01.876 [info] [CursorProclistService] Sample 171 created: 6 processes, 31 subsamples
+2025-12-24 14:57:01.877 [info] [CursorProclistService] Sample 172 created: 6 processes, 31 subsamples
+2025-12-24 15:02:01.886 [info] [CursorProclistService] Sample 173 created: 6 processes, 31 subsamples
+2025-12-24 15:07:01.880 [info] [CursorProclistService] Sample 174 created: 6 processes, 31 subsamples
+2025-12-24 15:12:01.872 [info] [CursorProclistService] Sample 175 created: 6 processes, 31 subsamples
+2025-12-24 15:17:01.865 [info] [CursorProclistService] Sample 176 created: 6 processes, 31 subsamples
+2025-12-24 15:22:01.856 [info] [CursorProclistService] Sample 177 created: 6 processes, 31 subsamples
+2025-12-24 15:27:01.827 [info] [CursorProclistService] Sample 178 created: 6 processes, 31 subsamples
+2025-12-24 15:32:01.814 [info] [CursorProclistService] Sample 179 created: 6 processes, 31 subsamples
+2025-12-24 15:37:01.823 [info] [CursorProclistService] Sample 180 created: 6 processes, 30 subsamples
+2025-12-24 15:42:01.790 [info] [CursorProclistService] Sample 181 created: 7 processes, 31 subsamples
+2025-12-24 15:47:01.783 [info] [CursorProclistService] Sample 182 created: 7 processes, 31 subsamples
+2025-12-24 15:52:01.772 [info] [CursorProclistService] Sample 183 created: 6 processes, 31 subsamples
+2025-12-24 15:57:01.794 [info] [CursorProclistService] Sample 184 created: 6 processes, 31 subsamples
+2025-12-24 16:02:01.795 [info] [CursorProclistService] Sample 185 created: 6 processes, 31 subsamples
+2025-12-24 16:07:01.757 [info] [CursorProclistService] Sample 186 created: 6 processes, 31 subsamples
+2025-12-24 16:12:01.838 [info] [CursorProclistService] Sample 187 created: 6 processes, 31 subsamples
+2025-12-24 16:17:01.831 [info] [CursorProclistService] Sample 188 created: 6 processes, 31 subsamples
+2025-12-24 16:22:01.837 [info] [CursorProclistService] Sample 189 created: 9 processes, 31 subsamples
+2025-12-24 16:27:01.815 [info] [CursorProclistService] Sample 190 created: 6 processes, 31 subsamples
+2025-12-24 16:32:01.781 [info] [CursorProclistService] Sample 191 created: 6 processes, 31 subsamples
+2025-12-24 16:37:01.794 [info] [CursorProclistService] Sample 192 created: 6 processes, 31 subsamples
+2025-12-24 16:42:01.783 [info] [CursorProclistService] Sample 193 created: 7 processes, 31 subsamples
+2025-12-24 16:47:01.797 [info] [CursorProclistService] Sample 194 created: 6 processes, 31 subsamples
+2025-12-24 16:52:01.789 [info] [CursorProclistService] Sample 195 created: 9 processes, 31 subsamples
+2025-12-24 16:56:27.121 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 16:56:27.125 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 16:56:27.149 [info] [CursorProclistService] Sample 196 created: 6 processes, 28 subsamples
+2025-12-24 17:02:22.129 [info] [CursorProclistService] Sample 197 created: 6 processes, 34 subsamples
+2025-12-24 17:07:22.126 [info] [CursorProclistService] Sample 198 created: 6 processes, 31 subsamples
+2025-12-24 17:12:22.130 [info] [CursorProclistService] Sample 199 created: 6 processes, 31 subsamples
+2025-12-24 17:17:22.110 [info] [CursorProclistService] Sample 200 created: 6 processes, 31 subsamples
+2025-12-24 17:22:22.086 [info] [CursorProclistService] Sample 201 created: 6 processes, 31 subsamples
+2025-12-24 17:23:48.933 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-24 17:23:48.940 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-24 17:43:56.093 [info] [CursorProclistService] Sample 202 created: 6 processes, 31 subsamples
+2025-12-24 18:20:17.800 [info] [CursorProclistService] Sample 203 created: 6 processes, 31 subsamples
+2025-12-24 18:25:17.819 [info] [CursorProclistService] Sample 204 created: 6 processes, 31 subsamples
+2025-12-24 18:30:17.817 [info] [CursorProclistService] Sample 205 created: 6 processes, 31 subsamples
+2025-12-24 18:35:17.818 [info] [CursorProclistService] Sample 206 created: 7 processes, 31 subsamples
+2025-12-24 18:40:17.760 [info] [CursorProclistService] Sample 207 created: 6 processes, 31 subsamples
+2025-12-24 18:45:17.817 [info] [CursorProclistService] Sample 208 created: 6 processes, 31 subsamples
+2025-12-24 18:50:17.774 [info] [CursorProclistService] Sample 209 created: 6 processes, 31 subsamples
+2025-12-24 18:55:17.832 [info] [CursorProclistService] Sample 210 created: 6 processes, 31 subsamples
+2025-12-24 19:00:17.794 [info] [CursorProclistService] Sample 211 created: 6 processes, 31 subsamples
+2025-12-24 19:05:17.814 [info] [CursorProclistService] Sample 212 created: 6 processes, 31 subsamples
+2025-12-24 19:10:17.763 [info] [CursorProclistService] Sample 213 created: 6 processes, 31 subsamples
+2025-12-24 19:15:17.766 [info] [CursorProclistService] Sample 214 created: 6 processes, 31 subsamples
+2025-12-24 19:20:17.791 [info] [CursorProclistService] Sample 215 created: 6 processes, 31 subsamples
+2025-12-24 19:25:17.813 [info] [CursorProclistService] Sample 216 created: 6 processes, 31 subsamples
+2025-12-24 19:30:17.834 [info] [CursorProclistService] Sample 217 created: 6 processes, 31 subsamples
+2025-12-24 19:35:17.807 [info] [CursorProclistService] Sample 218 created: 6 processes, 31 subsamples
+2025-12-24 19:40:17.762 [info] [CursorProclistService] Sample 219 created: 7 processes, 31 subsamples
+2025-12-24 19:45:17.815 [info] [CursorProclistService] Sample 220 created: 6 processes, 31 subsamples
+2025-12-24 19:50:17.760 [info] [CursorProclistService] Sample 221 created: 6 processes, 31 subsamples
+2025-12-24 19:55:17.787 [info] [CursorProclistService] Sample 222 created: 6 processes, 31 subsamples
+2025-12-24 20:00:17.804 [info] [CursorProclistService] Sample 223 created: 6 processes, 31 subsamples
+2025-12-24 20:05:17.758 [info] [CursorProclistService] Sample 224 created: 6 processes, 31 subsamples
+2025-12-24 20:10:17.778 [info] [CursorProclistService] Sample 225 created: 6 processes, 31 subsamples
+2025-12-24 20:15:17.775 [info] [CursorProclistService] Sample 226 created: 6 processes, 31 subsamples
+2025-12-24 20:20:17.755 [info] [CursorProclistService] Sample 227 created: 6 processes, 31 subsamples
+2025-12-24 20:25:17.777 [info] [CursorProclistService] Sample 228 created: 6 processes, 31 subsamples
+2025-12-24 20:30:17.752 [info] [CursorProclistService] Sample 229 created: 6 processes, 31 subsamples
+2025-12-24 20:35:17.750 [info] [CursorProclistService] Sample 230 created: 6 processes, 31 subsamples
+2025-12-24 20:40:17.796 [info] [CursorProclistService] Sample 231 created: 6 processes, 31 subsamples
+2025-12-24 20:45:17.794 [info] [CursorProclistService] Sample 232 created: 9 processes, 31 subsamples
+2025-12-24 20:50:17.806 [info] [CursorProclistService] Sample 233 created: 6 processes, 31 subsamples
+2025-12-24 20:55:17.823 [info] [CursorProclistService] Sample 234 created: 6 processes, 31 subsamples
+2025-12-24 21:00:17.803 [info] [CursorProclistService] Sample 235 created: 6 processes, 31 subsamples
+2025-12-24 21:05:17.808 [info] [CursorProclistService] Sample 236 created: 6 processes, 31 subsamples
+2025-12-24 21:10:17.764 [info] [CursorProclistService] Sample 237 created: 6 processes, 31 subsamples
+2025-12-24 21:15:17.771 [info] [CursorProclistService] Sample 238 created: 6 processes, 31 subsamples
+2025-12-24 21:20:17.790 [info] [CursorProclistService] Sample 239 created: 6 processes, 31 subsamples
+2025-12-24 21:25:17.772 [info] [CursorProclistService] Sample 240 created: 8 processes, 31 subsamples
+2025-12-24 21:30:17.780 [info] [CursorProclistService] Sample 241 created: 6 processes, 31 subsamples
+2025-12-24 21:35:17.893 [info] [CursorProclistService] Sample 242 created: 6 processes, 31 subsamples
+2025-12-24 21:40:17.769 [info] [CursorProclistService] Sample 243 created: 6 processes, 31 subsamples
+2025-12-24 21:45:17.793 [info] [CursorProclistService] Sample 244 created: 6 processes, 31 subsamples
+2025-12-24 21:50:17.811 [info] [CursorProclistService] Sample 245 created: 6 processes, 31 subsamples
+2025-12-24 21:55:17.783 [info] [CursorProclistService] Sample 246 created: 6 processes, 31 subsamples
+2025-12-24 22:00:17.805 [info] [CursorProclistService] Sample 247 created: 6 processes, 30 subsamples
+2025-12-24 22:05:17.792 [info] [CursorProclistService] Sample 248 created: 7 processes, 31 subsamples
+2025-12-24 22:10:17.803 [info] [CursorProclistService] Sample 249 created: 7 processes, 31 subsamples
+2025-12-24 22:15:17.768 [info] [CursorProclistService] Sample 250 created: 9 processes, 31 subsamples
+2025-12-24 22:20:17.840 [info] [CursorProclistService] Sample 251 created: 6 processes, 31 subsamples
+2025-12-24 22:25:17.783 [info] [CursorProclistService] Sample 252 created: 6 processes, 31 subsamples
+2025-12-24 22:30:17.768 [info] [CursorProclistService] Sample 253 created: 6 processes, 31 subsamples
+2025-12-24 22:35:17.826 [info] [CursorProclistService] Sample 254 created: 6 processes, 31 subsamples
+2025-12-24 22:40:17.770 [info] [CursorProclistService] Sample 255 created: 6 processes, 31 subsamples
+2025-12-24 22:45:17.803 [info] [CursorProclistService] Sample 256 created: 7 processes, 31 subsamples
+2025-12-24 22:50:17.792 [info] [CursorProclistService] Sample 257 created: 6 processes, 31 subsamples
+2025-12-24 22:55:17.860 [info] [CursorProclistService] Sample 258 created: 6 processes, 31 subsamples
+2025-12-24 23:00:17.714 [info] [CursorProclistService] Sample 259 created: 6 processes, 31 subsamples
+2025-12-24 23:05:17.718 [info] [CursorProclistService] Sample 260 created: 6 processes, 31 subsamples
+2025-12-24 23:10:17.688 [info] [CursorProclistService] Sample 261 created: 6 processes, 31 subsamples
+2025-12-24 23:15:17.720 [info] [CursorProclistService] Sample 262 created: 6 processes, 31 subsamples
+2025-12-24 23:20:17.724 [info] [CursorProclistService] Sample 263 created: 6 processes, 31 subsamples
+2025-12-24 23:25:17.750 [info] [CursorProclistService] Sample 264 created: 6 processes, 31 subsamples
+2025-12-24 23:30:17.726 [info] [CursorProclistService] Sample 265 created: 7 processes, 31 subsamples
+2025-12-24 23:35:17.734 [info] [CursorProclistService] Sample 266 created: 7 processes, 31 subsamples
+2025-12-24 23:40:17.754 [info] [CursorProclistService] Sample 267 created: 6 processes, 31 subsamples
+2025-12-24 23:45:17.751 [info] [CursorProclistService] Sample 268 created: 6 processes, 31 subsamples
+2025-12-24 23:50:17.881 [info] [CursorProclistService] Sample 269 created: 6 processes, 31 subsamples
+2025-12-25 00:42:59.386 [info] [CursorProclistService] Sample 270 created: 6 processes, 31 subsamples
+2025-12-25 01:35:07.368 [info] [CursorProclistService] Sample 271 created: 6 processes, 31 subsamples
+2025-12-25 02:12:55.803 [info] [CursorProclistService] Sample 272 created: 7 processes, 31 subsamples
+2025-12-25 03:05:34.521 [info] [CursorProclistService] Sample 273 created: 6 processes, 31 subsamples
+2025-12-25 03:21:07.059 [info] [CursorProclistService] Sample 274 created: 6 processes, 31 subsamples
+2025-12-25 03:31:35.168 [info] [CursorProclistService] Sample 275 created: 7 processes, 31 subsamples
+2025-12-25 03:52:46.109 [info] [CursorProclistService] Sample 276 created: 6 processes, 31 subsamples
+2025-12-25 03:57:46.099 [info] [CursorProclistService] Sample 277 created: 9 processes, 31 subsamples
+2025-12-25 04:02:46.101 [info] [CursorProclistService] Sample 278 created: 6 processes, 31 subsamples
+2025-12-25 04:07:46.305 [info] [CursorProclistService] Sample 279 created: 6 processes, 31 subsamples
+2025-12-25 04:12:46.058 [info] [CursorProclistService] Sample 280 created: 6 processes, 31 subsamples
+2025-12-25 04:17:46.101 [info] [CursorProclistService] Sample 281 created: 6 processes, 31 subsamples
+2025-12-25 04:22:46.111 [info] [CursorProclistService] Sample 282 created: 6 processes, 31 subsamples
+2025-12-25 04:27:46.083 [info] [CursorProclistService] Sample 283 created: 8 processes, 31 subsamples
+2025-12-25 04:32:46.069 [info] [CursorProclistService] Sample 284 created: 6 processes, 31 subsamples
+2025-12-25 04:37:46.114 [info] [CursorProclistService] Sample 285 created: 6 processes, 31 subsamples
+2025-12-25 04:42:46.076 [info] [CursorProclistService] Sample 286 created: 9 processes, 31 subsamples
+2025-12-25 04:47:46.067 [info] [CursorProclistService] Sample 287 created: 6 processes, 31 subsamples
+2025-12-25 06:25:17.498 [info] [CursorProclistService] Sample 288 created: 9 processes, 31 subsamples
+2025-12-25 08:27:24.549 [info] [CursorProclistService] Sample 289 created: 8 processes, 31 subsamples
+2025-12-25 09:19:21.983 [info] [CursorProclistService] Sample 290 created: 6 processes, 31 subsamples
+2025-12-25 09:24:21.989 [info] [CursorProclistService] Sample 291 created: 6 processes, 31 subsamples
+2025-12-25 09:29:21.981 [info] [CursorProclistService] Sample 292 created: 6 processes, 31 subsamples
+2025-12-25 09:34:22.080 [info] [CursorProclistService] Sample 293 created: 6 processes, 31 subsamples
+2025-12-25 09:39:22.089 [info] [CursorProclistService] Sample 294 created: 6 processes, 31 subsamples
+2025-12-25 09:44:22.087 [info] [CursorProclistService] Sample 295 created: 6 processes, 31 subsamples
+2025-12-25 09:49:22.050 [info] [CursorProclistService] Sample 296 created: 6 processes, 31 subsamples
+2025-12-25 09:54:22.048 [info] [CursorProclistService] Sample 297 created: 6 processes, 31 subsamples
+2025-12-25 09:55:46.038 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-25 09:55:46.086 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-25 10:03:34.378 [info] [CursorProclistService] Sample 298 created: 7 processes, 31 subsamples
+2025-12-25 10:08:34.378 [info] [CursorProclistService] Sample 299 created: 6 processes, 31 subsamples
+2025-12-25 10:13:34.408 [info] [CursorProclistService] Sample 300 created: 7 processes, 30 subsamples
+2025-12-25 10:18:34.409 [info] [CursorProclistService] Sample 301 created: 6 processes, 31 subsamples
+2025-12-25 10:23:34.403 [info] [CursorProclistService] Sample 302 created: 7 processes, 31 subsamples
+2025-12-25 10:28:34.370 [info] [CursorProclistService] Sample 303 created: 6 processes, 31 subsamples
+2025-12-25 10:33:32.847 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-25 10:33:32.851 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-25 10:33:32.858 [info] [CursorProclistService] Sample 304 created: 6 processes, 31 subsamples
+2025-12-25 11:21:16.857 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-25 11:21:16.871 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-25 13:54:57.486 [info] [CursorProclistService] Sample 305 created: 6 processes, 31 subsamples
+2025-12-25 13:59:57.491 [info] [CursorProclistService] Sample 306 created: 9 processes, 31 subsamples
+2025-12-25 14:04:57.501 [info] [CursorProclistService] Sample 307 created: 6 processes, 31 subsamples
+2025-12-25 14:09:57.500 [info] [CursorProclistService] Sample 308 created: 6 processes, 31 subsamples
+2025-12-25 14:14:57.492 [info] [CursorProclistService] Sample 309 created: 6 processes, 31 subsamples
+2025-12-25 14:19:57.489 [info] [CursorProclistService] Sample 310 created: 7 processes, 31 subsamples
+2025-12-25 14:24:57.492 [info] [CursorProclistService] Sample 311 created: 6 processes, 31 subsamples
+2025-12-25 14:29:57.446 [info] [CursorProclistService] Sample 312 created: 6 processes, 31 subsamples
+2025-12-25 14:34:57.452 [info] [CursorProclistService] Sample 313 created: 6 processes, 31 subsamples
+2025-12-25 14:39:57.441 [info] [CursorProclistService] Sample 314 created: 6 processes, 31 subsamples
+2025-12-25 14:41:41.749 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-25 14:41:41.756 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-25 14:47:05.168 [info] [CursorProclistService] Sample 315 created: 6 processes, 31 subsamples
+2025-12-25 14:52:05.173 [info] [CursorProclistService] Sample 316 created: 9 processes, 31 subsamples
+2025-12-25 14:57:05.147 [info] [CursorProclistService] Sample 317 created: 6 processes, 31 subsamples
+2025-12-25 15:02:05.141 [info] [CursorProclistService] Sample 318 created: 6 processes, 31 subsamples
+2025-12-25 15:03:12.725 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-25 15:03:12.826 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-25 15:22:37.541 [info] [CursorProclistService] Sample 319 created: 6 processes, 31 subsamples
+2025-12-25 15:27:37.548 [info] [CursorProclistService] Sample 320 created: 6 processes, 31 subsamples
+2025-12-25 15:30:28.948 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-25 15:30:28.968 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-25 15:32:37.551 [info] [CursorProclistService] Sample 321 created: 6 processes, 31 subsamples
+2025-12-25 15:37:37.458 [info] [CursorProclistService] Sample 322 created: 9 processes, 31 subsamples
+2025-12-25 15:42:37.456 [info] [CursorProclistService] Sample 323 created: 6 processes, 31 subsamples
+2025-12-25 15:47:37.449 [info] [CursorProclistService] Sample 324 created: 6 processes, 31 subsamples
+2025-12-25 15:52:37.464 [info] [CursorProclistService] Sample 325 created: 6 processes, 31 subsamples
+2025-12-25 15:57:37.471 [info] [CursorProclistService] Sample 326 created: 6 processes, 31 subsamples
+2025-12-25 16:02:37.478 [info] [CursorProclistService] Sample 327 created: 6 processes, 31 subsamples
+2025-12-25 16:07:37.475 [info] [CursorProclistService] Sample 328 created: 6 processes, 31 subsamples
+2025-12-25 16:12:37.492 [info] [CursorProclistService] Sample 329 created: 6 processes, 31 subsamples
+2025-12-25 16:17:37.500 [info] [CursorProclistService] Sample 330 created: 6 processes, 31 subsamples
+2025-12-25 16:37:47.401 [info] [CursorProclistService] Sample 331 created: 6 processes, 31 subsamples
+2025-12-25 16:57:58.300 [info] [CursorProclistService] Sample 332 created: 7 processes, 31 subsamples
+2025-12-25 17:02:58.295 [info] [CursorProclistService] Sample 333 created: 6 processes, 31 subsamples
+2025-12-25 17:07:58.290 [info] [CursorProclistService] Sample 334 created: 9 processes, 31 subsamples
+2025-12-25 17:12:58.280 [info] [CursorProclistService] Sample 335 created: 6 processes, 31 subsamples
+2025-12-25 17:17:58.293 [info] [CursorProclistService] Sample 336 created: 6 processes, 31 subsamples
+2025-12-25 17:42:41.824 [info] [CursorProclistService] Sample 337 created: 6 processes, 31 subsamples
+2025-12-25 17:47:41.825 [info] [CursorProclistService] Sample 338 created: 7 processes, 31 subsamples
+2025-12-25 17:52:41.821 [info] [CursorProclistService] Sample 339 created: 6 processes, 31 subsamples
+2025-12-25 17:57:41.820 [info] [CursorProclistService] Sample 340 created: 6 processes, 31 subsamples
+2025-12-25 18:02:41.782 [info] [CursorProclistService] Sample 341 created: 6 processes, 31 subsamples
+2025-12-25 18:07:41.781 [info] [CursorProclistService] Sample 342 created: 6 processes, 31 subsamples
+2025-12-25 18:12:41.771 [info] [CursorProclistService] Sample 343 created: 6 processes, 31 subsamples
+2025-12-25 18:17:41.817 [info] [CursorProclistService] Sample 344 created: 6 processes, 31 subsamples
+2025-12-25 18:22:41.802 [info] [CursorProclistService] Sample 345 created: 9 processes, 31 subsamples
+2025-12-25 18:27:41.810 [info] [CursorProclistService] Sample 346 created: 9 processes, 31 subsamples
+2025-12-25 18:32:41.797 [info] [CursorProclistService] Sample 347 created: 7 processes, 31 subsamples
+2025-12-25 18:37:41.846 [info] [CursorProclistService] Sample 348 created: 6 processes, 31 subsamples
+2025-12-25 18:58:56.610 [info] [CursorProclistService] Sample 349 created: 9 processes, 31 subsamples
+2025-12-25 19:08:59.787 [info] [CursorProclistService] Sample 350 created: 6 processes, 31 subsamples
+2025-12-25 19:27:47.122 [info] [CursorProclistService] Sample 351 created: 6 processes, 31 subsamples
+2025-12-25 19:57:00.036 [info] [CursorProclistService] Sample 352 created: 6 processes, 31 subsamples
+2025-12-25 20:44:38.544 [info] [CursorProclistService] Sample 353 created: 7 processes, 31 subsamples
+2025-12-25 21:10:17.621 [info] [CursorProclistService] Sample 354 created: 6 processes, 31 subsamples
+2025-12-25 21:40:52.355 [info] [CursorProclistService] Sample 355 created: 6 processes, 31 subsamples
+2025-12-25 22:33:32.995 [info] [CursorProclistService] Sample 356 created: 6 processes, 31 subsamples
+2025-12-25 23:28:02.394 [info] [CursorProclistService] Sample 357 created: 6 processes, 31 subsamples
+2025-12-26 00:26:44.543 [info] [CursorProclistService] Sample 358 created: 6 processes, 31 subsamples
+2025-12-26 00:44:30.111 [info] [CursorProclistService] Sample 359 created: 6 processes, 31 subsamples
+2025-12-26 01:05:26.913 [info] [CursorProclistService] Sample 360 created: 6 processes, 31 subsamples
+2025-12-26 01:10:26.905 [info] [CursorProclistService] Sample 361 created: 6 processes, 31 subsamples
+2025-12-26 01:15:26.923 [info] [CursorProclistService] Sample 362 created: 10 processes, 31 subsamples
+2025-12-26 01:20:26.865 [info] [CursorProclistService] Sample 363 created: 6 processes, 31 subsamples
+2025-12-26 01:25:26.907 [info] [CursorProclistService] Sample 364 created: 6 processes, 31 subsamples
+2025-12-26 01:30:26.871 [info] [CursorProclistService] Sample 365 created: 6 processes, 31 subsamples
+2025-12-26 01:35:26.856 [info] [CursorProclistService] Sample 366 created: 6 processes, 30 subsamples
+2025-12-26 01:40:26.830 [info] [CursorProclistService] Sample 367 created: 6 processes, 31 subsamples
+2025-12-26 01:45:26.830 [info] [CursorProclistService] Sample 368 created: 6 processes, 31 subsamples
+2025-12-26 01:50:26.815 [info] [CursorProclistService] Sample 369 created: 6 processes, 31 subsamples
+2025-12-26 01:55:26.802 [info] [CursorProclistService] Sample 370 created: 6 processes, 31 subsamples
+2025-12-26 02:00:26.801 [info] [CursorProclistService] Sample 371 created: 6 processes, 31 subsamples
+2025-12-26 02:53:20.548 [info] [CursorProclistService] Sample 372 created: 6 processes, 31 subsamples
+2025-12-26 03:26:13.370 [info] [CursorProclistService] Sample 373 created: 6 processes, 31 subsamples
+2025-12-26 04:34:02.980 [info] [CursorProclistService] Sample 374 created: 6 processes, 31 subsamples
+2025-12-26 05:40:07.644 [info] [CursorProclistService] Sample 375 created: 7 processes, 31 subsamples
+2025-12-26 06:32:19.027 [info] [CursorProclistService] Sample 376 created: 6 processes, 31 subsamples
+2025-12-26 06:55:51.099 [info] [CursorProclistService] Sample 377 created: 9 processes, 31 subsamples
+2025-12-26 07:00:51.112 [info] [CursorProclistService] Sample 378 created: 6 processes, 31 subsamples
+2025-12-26 07:05:51.164 [info] [CursorProclistService] Sample 379 created: 6 processes, 31 subsamples
+2025-12-26 07:10:51.108 [info] [CursorProclistService] Sample 380 created: 8 processes, 31 subsamples
+2025-12-26 07:15:51.119 [info] [CursorProclistService] Sample 381 created: 6 processes, 31 subsamples
+2025-12-26 07:52:47.447 [info] [CursorProclistService] Sample 382 created: 9 processes, 31 subsamples
+2025-12-26 08:06:08.561 [info] [CursorProclistService] Sample 383 created: 6 processes, 31 subsamples
+2025-12-26 08:15:25.731 [info] [CursorProclistService] Sample 384 created: 7 processes, 31 subsamples
+2025-12-26 08:38:05.466 [info] [CursorProclistService] Sample 385 created: 8 processes, 31 subsamples
+2025-12-26 08:43:05.458 [info] [CursorProclistService] Sample 386 created: 7 processes, 31 subsamples
+2025-12-26 08:48:05.498 [info] [CursorProclistService] Sample 387 created: 6 processes, 31 subsamples
+2025-12-26 08:53:05.493 [info] [CursorProclistService] Sample 388 created: 6 processes, 31 subsamples
+2025-12-26 08:58:05.494 [info] [CursorProclistService] Sample 389 created: 6 processes, 31 subsamples
+2025-12-26 09:03:05.511 [info] [CursorProclistService] Sample 390 created: 6 processes, 31 subsamples
+2025-12-26 09:08:05.515 [info] [CursorProclistService] Sample 391 created: 9 processes, 31 subsamples
+2025-12-26 09:13:05.518 [info] [CursorProclistService] Sample 392 created: 6 processes, 31 subsamples
+2025-12-26 09:18:05.538 [info] [CursorProclistService] Sample 393 created: 6 processes, 31 subsamples
+2025-12-26 09:23:05.535 [info] [CursorProclistService] Sample 394 created: 6 processes, 31 subsamples
+2025-12-26 09:28:05.535 [info] [CursorProclistService] Sample 395 created: 7 processes, 31 subsamples
+2025-12-26 09:33:05.489 [info] [CursorProclistService] Sample 396 created: 6 processes, 31 subsamples
+2025-12-26 10:23:55.077 [info] [CursorProclistService] Sample 397 created: 9 processes, 31 subsamples
+2025-12-26 10:54:27.014 [info] [127.0.0.1][90e00b0b][ExtensionHostConnection] The client has reconnected.
+2025-12-26 10:54:27.045 [info] [127.0.0.1][36d672c8][ManagementConnection] The client has reconnected.
+2025-12-26 11:26:17.023 [info] [CursorProclistService] Sample 398 created: 6 processes, 31 subsamples
+2025-12-26 11:29:47.972 [info] [CursorProclistService] Sample 399 created: 6 processes, 22 subsamples
+2025-12-26 11:33:19.674 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
