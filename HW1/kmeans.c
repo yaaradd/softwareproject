@@ -116,6 +116,7 @@ point_coordinates_list *parse_line(const char *line, unsigned int expected_dim) 
         if (!add_coordinate(coords, value)) { free_point_coordinates_list(coords); return NULL; }
         ptr += n;
         dim_count++;
+        while (*ptr == ' ' || *ptr == '\t') { ptr++; }
         if (*ptr == ',') ptr++;
         else if (*ptr != '\0') { free_point_coordinates_list(coords); return NULL; }
     }
@@ -135,7 +136,7 @@ points_list *read_points(unsigned int *dim) {
 
     while ((nread = getline(&line, &len, stdin)) != -1) {
         point_coordinates_list *coords;
-        if (nread == 1 && line[0] == '\n') break;
+        if (nread == 1 && line[0] == '\n') continue;
         if (line[nread - 1] == '\n') line[nread - 1] = '\0';
         coords = parse_line(line, *dim);
         free(line);
